@@ -895,6 +895,40 @@
      
      @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
      
+     /*Primera pantalla*/
+     #layout-container .section-title-1 {
+        font-size: 50px;
+        font-weight: bold;
+        font-family: 'Roboto Slab', serif;
+    }
+    #layout-container #main-screen #course-header .course-title span {
+        font-size: 25px;
+        line-height: 1.2em;
+    }
+     #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title {
+        background: var(--maincolor);
+        max-height: 109px;
+        word-break: break-word;
+        -webkit-box-shadow: 0px 12px 12px 0px #5d5d5d75;
+        -moz-box-shadow: 0px 12px 12px 0px #5d5d5d75;
+        box-shadow: 0px 12px 12px 0px #5d5d5d75;
+    }
+    #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title h3 {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-desc {
+        display: none;
+    }
+    #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title:before {
+        background: var(--maincolor);
+    }
+    #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item:after {
+        display: none;
+    }
+    #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-number {
+        display: none;
+    }
      
      /*Loading - Pendiente cambiar por Coursetag*/
      
