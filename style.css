@@ -882,6 +882,12 @@
     /************************
      * CSS AÑADIDO POR HTML *
      ************************/
+     :root {
+         --colordeg1:#4A4A4A;
+         --colordeg2: #707070;
+        --maincolor: #707070;
+        --maintransparent: #70707057;
+     }
   
      @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap');
 
