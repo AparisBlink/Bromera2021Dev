@@ -882,18 +882,18 @@
     /************************
      * CSS AÑADIDO POR HTML *
      ************************/
+     @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap');
+
+     @import url('https://fonts.googleapis.com/css?family=Dekko&display=swap');
+     
+     @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+     
      :root {
          --colordeg1:#4A4A4A;
          --colordeg2: #707070;
         --maincolor: #707070;
         --maintransparent: #70707057;
      }
-  
-     @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap');
-
-     @import url('https://fonts.googleapis.com/css?family=Dekko&display=swap');
-     
-     @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
      
      /*Primera pantalla*/
      #layout-container .section-title-1 {
