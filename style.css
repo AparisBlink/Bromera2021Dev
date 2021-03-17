@@ -916,162 +916,49 @@
          color: #ff4040;
      }
     
+
      
-     /*DISPLAY NONE DE LA DESCRIPCIÓN Y EL TÍTULO DE LA UNIDAD EN LA PRIMERA Y SEGUNDA PANTALLA*/
-     
-     .abp-unit-content::before {
-         display: none;
-     }
-     
-     .abp-unit-content-description {
-         display: none;
-     }
-     
-     .abp-section_unit-inner .abp-section-header-bottom-description {
-         display: none;
-     }
-     
-     .abp-section_unit-inner .abp-section-header-bottom::before{
-         display: none;
-     }
-     
-     .abp-unit-number {
-         background: #ffffff;
-         display: none;
-     }
-     
-     .abp-units-slider-item::before{
-         display: none;
-     }
-     
-     .abp-section_unit-inner .abp-section-content .abp-resources-list-wrapper::-webkit-scrollbar-thumb {
-         background-color: #65d1de;
-     }
-     
-     /*HEADER UNIDADES*/
-     
-     .abp-section_home .abp-section-content .abp-unit {
-         -moz-transition: all 0.2s ease-out;
-         -webkit-transition: all 0.2s ease-out;
-         transition: all 0.2s ease-out;
-     }
-     
-     .abp-section_home .abp-section-content .abp-unit:hover {
-         -moz-box-shadow: 1px 8px 20px 0px #9de1ea;
-         -webkit-box-shadow: 1px 8px 20px 0px #9de1ea;
-         box-shadow: 1px 8px 20px 0px #9de1ea;
-         -webkit-filter: brightness(1.05);
-         filter: brightness(1.05);
-     
-     }
-     
-     .abp-unit-header {
-         word-break: break-word;
-         color: white;
-         -moz-box-shadow: -2px 5px 12px 0px #5d5d5d;
-         -webkit-box-shadow: -2px 5px 12px 0px #5d5d5d;
-         box-shadow: -2px 5px 12px 0px #5d5d5d;
-         z-index: 2;
-         background: rgba(98,197,208,1);
-         background: -moz-linear-gradient(left, rgba(98,197,208,1) 0%, rgba(168,230,239,1) 100%);
-         background: -webkit-gradient(left top, right top, color-stop(0%, rgba(98,197,208,1)), color-stop(100%, rgba(168,230,239,1)));
-         background: -webkit-linear-gradient(left, rgba(98,197,208,1) 0%, rgba(168,230,239,1) 100%);
-         background: -o-linear-gradient(left, rgba(98,197,208,1) 0%, rgba(168,230,239,1) 100%);
-         background: -ms-linear-gradient(left, rgba(98,197,208,1) 0%, rgba(168,230,239,1) 100%);
-         background: linear-gradient(to right, rgba(98,197,208,1) 0%, rgba(168,230,239,1) 100%);
-     }
-     
-     .abp-unit-header::before {
-         border-top: 15px solid #9de1ea;
-     }
-     
-     .abp-title-4 {
-         font-size: 28px;
-         text-align: center;
-         font-weight: 600;
-         letter-spacing: 0px;
-     }
-     
-     .abp-resources-list-item-text::before {
-         background: #62c3d6;
-     }
-     
-     .abp-resources-list-item-image::before {
-         background: rgba(96,194,214,1);
-         background: -moz-linear-gradient(left, rgba(96,194,214,1) 0%, rgba(166,235,247,1) 100%);
-         background: -webkit-gradient(left top, right top, color-stop(0%, rgba(96,194,214,1)), color-stop(100%, rgba(166,235,247,1)));
-         background: -webkit-linear-gradient(left, rgba(96,194,214,1) 0%, rgba(166,235,247,1) 100%);
-         background: -o-linear-gradient(left, rgba(96,194,214,1) 0%, rgba(166,235,247,1) 100%);
-         background: -ms-linear-gradient(left, rgba(96,194,214,1) 0%, rgba(166,235,247,1) 100%);
-         background: linear-gradient(to right, rgba(96,194,214,1) 0%, rgb(166, 235, 247) 100%);
-     }
-     
-     .abp-resources-list-item-inner:hover .abp-resources-list-item-text {
-         background: #d1f7ff;
-     }
-     
+     /*HEADER UNIDADES*/     
      a:hover, a:active, a:focus {
          color: #326d78;
      }
-     
      .link:focus, .link:active, .link:hover {
          color: #a0e7f4;
      }
      
-     /*Tabs*/
-     
-     .abp-navigation_secondary ul li {
-         width: 415px;
-         border-left: 10px solid #dffbff;
-         background: rgba(98,197,208,1);
-         background: -moz-linear-gradient(left, rgba(98,197,208,1) 0%, rgba(168,230,239,1) 100%);
-         background: -webkit-gradient(left top, right top, color-stop(0%, rgba(98,197,208,1)), color-stop(100%, rgba(168,230,239,1)));
-         background: -webkit-linear-gradient(left, rgba(98,197,208,1) 0%, rgba(168,230,239,1) 100%);
-         background: -o-linear-gradient(left, rgba(98,197,208,1) 0%, rgba(168,230,239,1) 100%);
-         background: -ms-linear-gradient(left, rgba(98,197,208,1) 0%, rgba(168,230,239,1) 100%);
-         background: linear-gradient(to right, rgba(98,197,208,1) 0%, rgba(168,230,239,1) 100%);
-     }
      
      /*Letra por defecto*/
      
-     p {
+     .body_clase.content_type_curso_Bromera2021Dev #layout-container p {
          font-size: 18px;
          font-family: 'Roboto', sans-serif;
-     }
-     
-     .texto_curso p {
+     } 
+     .body_clase.content_type_curso_Bromera2021Dev #layout-container .texto_curso p {
          line-height: 1.8em!important;
          margin-bottom: 20px;
      }
-     
-     body {
+     .body_clase.content_type_curso_Bromera2021Dev #layout-container {
          font: 400 18px 'Roboto',sans-serif;
      }
      
-     /*Cambio de letra por tag*/
      
      /*unittag_bromeraescolar2020*/
-     
      body.unittag_bromeraescolar2020  {
          font: 400 22px 'Dekko',sans-serif;
-     }
-     
+     }    
      .unittag_bromeraescolar2020 p {
          font-size: 22px;
          font-family: 'Dekko', sans-serif;
-     }
-     
+     }    
      .unittag_bromeraescolar2020 .texto_curso p {
          line-height: 1.8em!important;
-     }
-     
+     }   
      .unittag_bromeraescolar2020 .bck-box2 .bck-title p,
       .unittag_bromeraescolar2020 .bck-box3 .bck-title p,
       .unittag_bromeraescolar2020 .bck-box4 .bck-title p,
       .unittag_bromeraescolar2020 .bck-box5 .bck-title p{
          font-family: "Dekko", sans-serif;
      }
-     
      .unittag_bromeraescolar2020 .bck-box2 .bck-content p,
      .unittag_bromeraescolar2020 .bck-box3 .bck-content p,
      .unittag_bromeraescolar2020 .bck-box4 .bck-content p,
@@ -1922,53 +1809,6 @@
      
      #book-index #indice .unit-content .actividades .item .title {
          font-size: 20px !important;
-     }
-     
-     
-     /*CAMBIOS PROVISONALES EN SEGUNDA PANTALLA*/
-     
-     .abp-section_unit-inner .abp-section-header-top::before {
-         border-left: 20px solid #62c3d6;
-     }
-     
-     .abp-section_unit-inner .abp-section-header-top{
-         word-break: break-word;
-         min-height: 100%;
-         background-image: url(/useruploads/r/a/155333866/activity_other_imported/Bromera_musica1prim_00_00_10.jpg);
-         background-position: center;
-     }
-     
-     .abp-section_unit-inner .abp-section-header-bottom-background img {
-         display: none;
-     }
-     
-     .abp-section_unit-inner .abp-section-header-top::after {
-         content: "";
-         background: url(/useruploads/r/a/155333906/activity_other_imported/Bromera_musica1prim_00_00_10Musi-pata-coixa.png);
-             background-repeat: repeat;
-             background-size: auto;
-         padding: 208px 130px;
-         position: absolute;
-         bottom: 0px;
-         background-size: contain;
-         background-repeat: no-repeat;
-     }
-     
-     .abp-title-5 {
-         font-weight: 700;
-     }
-     
-     .abp-body-user-not-student .abp-resources-list-item-text-main-bottom {
-         font-weight: 400;
-         padding-top: 6px;
-     }
-     
-     .abp-section_unit-inner .abp-section-header::before {
-         border-top-color:#75c8da;
-     }
-     
-     .abp-section p {
-         padding: 2px 0px;
      }
      
      /*------------------------------------------------------------*/
