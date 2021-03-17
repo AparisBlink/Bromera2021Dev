@@ -86,9 +86,9 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./bromera2021dev/blink-src/js/cke_styles.js":
+/***/ "./Bromera2021dev/blink-src/js/cke_styles.js":
 /*!********************************************!*\
-  !*** ./bromera2021dev/blink-src/js/cke_styles.js ***!
+  !*** ./Bromera2021dev/blink-src/js/cke_styles.js ***!
   \********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -108,9 +108,9 @@
     
     /***/ }),
     
-    /***/ "./bromera2021dev/blink-src/js/layout/main.js":
+    /***/ "./Bromera2021dev/blink-src/js/layout/main.js":
     /*!*********************************************!*\
-      !*** ./bromera2021dev/blink-src/js/layout/main.js ***!
+      !*** ./Bromera2021dev/blink-src/js/layout/main.js ***!
       \*********************************************/
     /*! exports provided: default */
     /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -911,18 +911,18 @@
     
     /***/ }),
     
-    /***/ "./bromera2021dev/blink-src/js/main.js":
+    /***/ "./Bromera2021dev/blink-src/js/main.js":
     /*!**************************************!*\
-      !*** ./bromera2021dev/blink-src/js/main.js ***!
+      !*** ./Bromera2021dev/blink-src/js/main.js ***!
       \**************************************/
     /*! no exports provided */
     /***/ (function(module, __webpack_exports__, __webpack_require__) {
     
     "use strict";
     __webpack_require__.r(__webpack_exports__);
-    /* harmony import */ var _cke_styles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cke_styles */ "./bromera2021dev/blink-src/js/cke_styles.js");
-    /* harmony import */ var _overrides__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./overrides */ "./bromera2021dev/blink-src/js/overrides.js");
-    /* harmony import */ var _layout_main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./layout/main */ "./bromera2021dev/blink-src/js/layout/main.js");
+    /* harmony import */ var _cke_styles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cke_styles */ "./Bromera2021dev/blink-src/js/cke_styles.js");
+    /* harmony import */ var _overrides__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./overrides */ "./Bromera2021dev/blink-src/js/overrides.js");
+    /* harmony import */ var _layout_main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./layout/main */ "./Bromera2021dev/blink-src/js/layout/main.js");
     /*
     *   Javascript principal con la estructura básica del estilo
     */
@@ -939,10 +939,10 @@
     
       Bromera2021devStyle.prototype = {
         parent: blink.theme.styles.basic.prototype,
-        bodyClassName: 'content_type_clase_bromera2021dev',
+        bodyClassName: 'content_type_clase_Bromera2021dev',
         extraPlugins: ['image2'],
         ckEditorStyles: {
-          name: 'bromera2021dev',
+          name: 'Bromera2021dev',
           styles: _cke_styles__WEBPACK_IMPORTED_MODULE_0__["default"]
         },
         init: function (scope) {
@@ -955,14 +955,14 @@
         ..._overrides__WEBPACK_IMPORTED_MODULE_1__["default"]
       };
       Bromera2021devStyle.prototype = _.extend({}, new blink.theme.styles.basic(), Bromera2021devStyle.prototype);
-      blink.theme.styles['bromera2021dev'] = Bromera2021devStyle;
+      blink.theme.styles['Bromera2021dev'] = Bromera2021devStyle;
     })(blink);
     
     /***/ }),
     
-    /***/ "./bromera2021dev/blink-src/js/overrides.js":
+    /***/ "./Bromera2021dev/blink-src/js/overrides.js":
     /*!*******************************************!*\
-      !*** ./bromera2021dev/blink-src/js/overrides.js ***!
+      !*** ./Bromera2021dev/blink-src/js/overrides.js ***!
       \*******************************************/
     /*! exports provided: default */
     /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1033,9 +1033,9 @@
     
     /***/ }),
     
-    /***/ "./bromera2021dev/blink-src/styles/main.scss":
+    /***/ "./Bromera2021dev/blink-src/styles/main.scss":
     /*!********************************************!*\
-      !*** ./bromera2021dev/blink-src/styles/main.scss ***!
+      !*** ./Bromera2021dev/blink-src/styles/main.scss ***!
       \********************************************/
     /*! no static exports found */
     /***/ (function(module, exports, __webpack_require__) {
@@ -1048,13 +1048,13 @@
     
     /***/ 0:
     /*!*********************************************************************************!*\
-      !*** multi ./bromera2021dev/blink-src/js/main.js ./bromera2021dev/blink-src/styles/main.scss ***!
+      !*** multi ./Bromera2021dev/blink-src/js/main.js ./Bromera2021dev/blink-src/styles/main.scss ***!
       \*********************************************************************************/
     /*! no static exports found */
     /***/ (function(module, exports, __webpack_require__) {
     
-    __webpack_require__(/*! D:\workspaces\web\blinkweb\blink\www\themes\responsive\assets\styles\bromera2021dev\blink-src\js\main.js */"./bromera2021dev/blink-src/js/main.js");
-    module.exports = __webpack_require__(/*! D:\workspaces\web\blinkweb\blink\www\themes\responsive\assets\styles\bromera2021dev\blink-src\styles\main.scss */"./bromera2021dev/blink-src/styles/main.scss");
+    __webpack_require__(/*! D:\workspaces\web\blinkweb\blink\www\themes\responsive\assets\styles\Bromera2021dev\blink-src\js\main.js */"./Bromera2021dev/blink-src/js/main.js");
+    module.exports = __webpack_require__(/*! D:\workspaces\web\blinkweb\blink\www\themes\responsive\assets\styles\Bromera2021dev\blink-src\styles\main.scss */"./Bromera2021dev/blink-src/styles/main.scss");
     
     
     /***/ })
