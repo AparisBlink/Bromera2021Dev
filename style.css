@@ -1880,11 +1880,11 @@
      /*Cambio NAVBAR GENERAL*/
      
      .libro-left ul li .title {
-         background: #08547a;
+         background: var(--maincolor);
      }
      
      .libro-right, .libro-left {
-         background: #08547a;    
+         background: var(--maincolor);    
      }
      
      .body_clase .navbar.libro .libro-left {
@@ -1892,15 +1892,15 @@
      }
      
      .navbar.libro {
-         background: #08547a !important;
+         background: var(--maincolor) !important;
      }
      
      .libro-right ul li.close-back-wrapper:after, .navbar-divider:after {
-         background-color: #08547a !important;
+         background-color: var(--maincolor) !important;
      }
      
      .libro-right ul li.close-back-wrapper:before, .navbar-divider:before {
-         background-color: #08547a !important; 
+         background-color: var(--maincolor) !important; 
      }
      
      /*Cambios por coursetag*/
