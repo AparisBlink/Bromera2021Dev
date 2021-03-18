@@ -1224,7 +1224,7 @@
          border-radius: 94px;
          text-align: center;
          margin-right: 0;
-         margin: 0 auto;
+         margin: 10px auto 15px;
      }
      
      .bck-box2 .bck-title p {
@@ -1245,6 +1245,7 @@
         background: #D8D5DA;
         border: 3px solid #000000;
         border-radius: 26px;
+        margin: 10px auto 15px;
      }
      
      .bck-box3 .bck-title p {
@@ -1277,6 +1278,7 @@
          border: 11px solid #62c3d6;
          border-style: double;
          padding: 10px 20px;
+         margin: 10px auto 15px;
      }
      
      /*Títulos*/
