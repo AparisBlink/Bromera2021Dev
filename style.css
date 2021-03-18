@@ -974,8 +974,8 @@
     #book-index #indice .units ul li.active a {
     background: var(--colordeg1);
     }
-    #book-index .col-main,
-    #book-index #indice .unit-content {
+    body #book-index .col-main,
+    body #book-index #indice .unit-content {
     background: var(--colordeg1);
     background: -moz-linear-gradient(0% 50% 0deg, var(--colordeg1) 0%, var(--colordeg2) 99.84%);
     background: -webkit-linear-gradient(0deg, var(--colordeg1) 0%, var(--colordeg2) 99.84%);
@@ -984,23 +984,22 @@
     background: -ms-linear-gradient(0deg, var(--colordeg1) 0%, var(--colordeg2) 99.84%);
     background: linear-gradient(90deg, var(--colordeg1) 0%, var(--colordeg2) 99.84%);
     }
-    #book-index #indice .unit-content a:hover, #book-index #indice li.current a {
+    body #book-index #indice .unit-content a:hover, #book-index #indice li.current a {
     color: var(--mainlight);
     }
-    #book-index #indice .unit-content .content .title-buttons .btn {
+    body #book-index #indice .unit-content .content .title-buttons .btn {
     border: 0;
     }
-    #book-index #indice .unit-content .actividades .item .title {
+    body #book-index #indice .unit-content .actividades .item .title {
     font-size: 20px;
     }
 
-     /*Loading - Pendiente cambiar por Coursetag*/ 
+    /*Loading - Pendiente cambiar por Coursetag*/ 
      .modal-backdrop {
          background-color: #707070 !important;
-     }
+      }
      
-     /*Boton de Cerrar el iframe del libro digital*/
-     
+    /*Boton de Cerrar el iframe del libro digital*/
      .btn-close-iframe {
          background: white;
          margin-top: 0;
@@ -1009,15 +1008,13 @@
          border-radius: 0px 10px 0px 0px;
          -moz-border-radius: 0px 10px 0px 0px;
          -webkit-border-radius: 0px 10px 0px 0px;
-     }
-     
+      }
      .btn-close-iframe a {
          color: #ff4040;
-     }
-     
-     .btn-close-iframe a {
-         color: #ff4040;
-     }
+      }
+      .btn-close-iframe a {
+        color: #ff4040;
+      }
     
 
      
@@ -1031,7 +1028,6 @@
      
      
      /*Letra por defecto*/
-     
      .body_clase.content_type_curso_Bromera2021Dev #layout-container p {
          font-size: 18px;
          font-family: 'Roboto', sans-serif;
@@ -1069,37 +1065,40 @@
          font-family: "Dekko", sans-serif;
          font-size: 22px;
      }
-     
+     /*-------------------------*/
+     /*------GENERALES----------*/
+     /*--------------------------*/
+     #actividad .class_slide {
+      padding-bottom: 20px;
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+
      /*--------------------CAJAS PARA LA CABECERA-----------*/
-     
-     
      /*CAJA 1 - Caja reptes
      CAJA 6 - Caja Periodistes musicals - Background y borde uniforme
      CAJA 7 - Introduccio  - Cambia el background como en caja 6. No tiene before*
      CAJA 8 - Valore el trimestre - Igual que caja 7 pero con before
      CAJA 9 - Ral-i fotográfic - Mismo fondo, solo cambia el color del borde por repte */
-     
      .bck-box1,
      .bck-box6,
      .bck-box7,
      .bck-box8,
      .bck-box9 {
-         position: relative;
-         width: 115.1%;
-         box-sizing: border-box;
-         left: -9.6%;
-         margin-top: -1%;
-         padding: 10px 47px;
-         min-height: 104px;
-         margin-bottom: 30px;
+      position: relative;
+      width: calc(100% + 120px);
+      box-sizing: border-box;
+      margin-left: -60px;
+      margin-top: -1%;
+      padding: 10px 47px;
+      min-height: 104px;
+      margin-bottom: 30px;
      }
-     
      .bck-box1 .bck-title p {
          font-weight: bold;
          font-size: 27px;
          font-family: "Roboto", sans-serif;
      }
-     
      .bck-box1 .bck-content p,
      .bck-box6 .bck-content p,
      .bck-box7 .bck-content p,
@@ -1108,14 +1107,11 @@
          font-size: 30px;
          font: 600 30px 'RockwellStd','Roboto Slab';
      }
-     
-     
      .bck-box1:after,
      .bck-box6:after,
      .bck-box7:after,
      .bck-box8:after,
-     .bck-box9:after {
-         
+     .bck-box9:after { 
          content: "";
          background-image: url(/useruploads/r/a/154157266/activity_other_imported/logo_Musica-en-moviment.png);
          padding: 65px;
@@ -1125,7 +1121,6 @@
          right: 5%;
          top: 36%;
      }
-     
      .bck-box1:before,
      .bck-box6:before,
      .bck-box8:before,
@@ -1137,48 +1132,39 @@
          left: -106px;
          -webkit-border-radius:100%;
          border-radius: 100%;
-     }
-     
-     
+     }     
      .bck-box1 {
          background: #DE768A;
          border-left: 134px solid #F4B806;
      }
-     
      .bck-box1:before {
          background-image: url(/useruploads/r/a/153881856/activity_other_imported/T_Musica-en-moviment-1-9_diana.png);
          top:21px;
      }
-     
      .bck-box6 {
          display: flex;
          align-items: center;
          background: #F4B806;
          border-left: 134px solid #6A6E72;
      }
-     
      .bck-box6:before {
          background-image: url(/useruploads/r/a/157854866/activity_other_imported/Bromera_mv1_indice_icono_04.jpg);
      }
-     
      .bck-box7 {
          display: flex;
          align-items: center;
          background: #62C3D6;
          border-left: 0;
      }
-     
      .bck-box8 {
          display: flex;
          align-items: center;
          background: #62C3D6;
          border-left: 134px solid #6A6E72;
      }
-     
      .bck-box8:before {
          background-image: url(/useruploads/r/a/157854906/activity_other_imported/Bromera_mv1_indice_icono_06.jpg);
      }
-     
      .bck-box9 {
          background: #F2F1F3;
          display: flex;
@@ -1188,7 +1174,6 @@
      .bck-box9:before {
          background-image: url(/useruploads/r/a/157854916/activity_other_imported/Bromera_mv1_indice_icono_07.jpg);
      }
-     
      .bck-content {
          padding: 0;
      
@@ -2550,48 +2535,35 @@
      and (max-device-width : 480px) {
      
          #actividad .class_slide {
-             padding-left: 0px;
-             padding-right: 0px;
-         }
-     
-         /*.bck-box1, .bck-box6, .bck-box7, .bck-box8, .bck-box9 {
-             width: 130.5%;
-             left: -15.6%;
-             margin-top: -4%;
-         }*/
-     
-             .bck-box1, .bck-box6, .bck-box7, .bck-box8, .bck-box9 {
-             width: 128%;
-             left: -14%;
-             margin-top: -4%;
-             padding: 10px 13px;
-             min-height: 79px;
-             border-left-width: 76px;
-         }
-     
+          padding-left: 40px;
+          padding-right: 40px;
+         }     
+          .bck-box1, .bck-box6, .bck-box7, .bck-box8, .bck-box9 {
+            width: calc(100% + 80px);
+            margin-left: -40px;
+            margin-top: -4%;
+            padding: 10px 13px;
+            min-height: 79px;
+            border-left-width: 76px;
+        }
          .abp-section_unit-inner .abp-section-header-top::after {
              display: none;
          }
-     
          .bck-box1 .bck-title p {
              font-size: 22px;
          }
-     
          .bck-box1 .bck-content p, .bck-box6 .bck-content p, .bck-box7 .bck-content p, .bck-box8 .bck-content p, .bck-box9 .bck-content p {
              font-size: 30px;
              font: 600 20px 'RockwellStd','Roboto Slab';
          }
-     
          .bck-box1:before, .bck-box6:before, .bck-box8:before, .bck-box9:before {
              padding: 26px;
              left: -64px;
-             top: 21px;
+             top: 15px;
          }
-     
          .bck-box1:after, .bck-box6:after, .bck-box7:after, .bck-box8:after, .bck-box9:after {
              display: none;
          }
-     
          #actividad .workspace .opcion {
              padding: 10px 5px !important;
          }
