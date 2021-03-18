@@ -1017,13 +1017,44 @@
     
 
      
-     /*HEADER UNIDADES*/     
-     a:hover, a:active, a:focus {
-         color: #326d78;
-     }
-     .link:focus, .link:active, .link:hover {
-         color: #a0e7f4;
-     }
+      /*ENLACES*/     
+      a:hover, a:active, a:focus {
+        color: #326d78;
+      }
+      .link:focus, .link:active, .link:hover {
+        color: #a0e7f4;
+      }
+      /*HEADER*/
+      #actividad .content .header .title img {
+        display: none;
+      }
+      #actividad .content .header .chapter {
+        display: none;
+      }
+      #actividad .content .header {
+        margin-bottom: 40px;
+        background: var(--colordeg1);
+        width: calc(100% + 120px);
+        margin-left: -60px;
+        padding-left: 60px;
+        margin-top: -1px;
+        color: white;
+        padding-bottom: 5px;
+      }
+      #actividad .content .header .title {
+        min-height: 37px;
+        margin-bottom: 5px;
+      }
+      #actividad .content .header .title h3 {
+        font-size: 2.7rem;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-top: 30px;
+        vertical-align: bottom;
+        font-weight: bold;
+        padding-bottom: 5px;
+    }
+
      
      
      /*Letra por defecto*/
@@ -1189,7 +1220,7 @@
          background: #FBDC99;
          width: fit-content;
          width: -moz-fit-content;
-         padding: 45px;
+         padding: 20px 40px;
          border-radius: 94px;
          text-align: center;
          margin-right: 0;
@@ -1255,36 +1286,27 @@
      .bck-title3,
      .bck-title4,
      .bck-title5 {
-         font-family: inherit;
-         margin-top: 0;
-         background: none;
-         font-size: 35px;
-         margin-bottom: 20px;
-         font-weight: 700;
-         border-bottom: 3px solid;
-         padding: 0px 68px 5px 5px;
-         width: -webkit-fit-content;
-         width: fit-content;
-         width: -moz-fit-content;
+        background: none;
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-weight: 500;
+        border-bottom: 2px solid;
+        padding: 0px 0 5px 5px;
+        width: 100%;
      }
-     
      .bck-title1 {
          color: #de768a;
      }
-     
      .bck-title2 {
          color: #62C3D6;
      }
-     
      .bck-title3 {
          color: #DAE06C;
          font-size: 35px;
      }
-     
      .bck-title4 {
          color: #706f6f;
      }
-     
      .bck-title5 {
          color: #F4B806;
      }
@@ -1929,11 +1951,11 @@
      /*Cambio NAVBAR GENERAL*/
      
      .libro-left ul li .title {
-         background: var(--maincolor);
+         background: var(--colordeg1);
      }
      
      .libro-right, .libro-left {
-         background: var(--maincolor);    
+         background: var(--colordeg1);    
      }
      
      .body_clase .navbar.libro .libro-left {
@@ -1941,15 +1963,15 @@
      }
      
      .navbar.libro {
-         background: var(--maincolor) !important;
+         background: var(--colordeg1) !important;
      }
      
      .libro-right ul li.close-back-wrapper:after, .navbar-divider:after {
-         background-color: var(--maincolor) !important;
+         background-color: var(--colordeg1) !important;
      }
      
      .libro-right ul li.close-back-wrapper:before, .navbar-divider:before {
-         background-color: var(--maincolor) !important; 
+         background-color: var(--colordeg1) !important; 
      }
      
      /*Cambios por coursetag*/
