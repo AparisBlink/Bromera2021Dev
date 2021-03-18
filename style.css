@@ -1032,7 +1032,7 @@
      }
      .texto_curso p {
       line-height: 1.7em!important;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
      
      
@@ -1210,10 +1210,10 @@
      /*CAJA 3*/
      
      .bck-box3 {
-         padding: 8px 15px;
-         background: #D8D5DA;
-         border: 3px solid #000000;
-         border-radius: 26px;
+        padding: 15px 20px;
+        background: #D8D5DA;
+        border: 3px solid #000000;
+        border-radius: 26px;
      }
      
      .bck-box3 .bck-title p {
@@ -1237,7 +1237,7 @@
          background-position: 4px 1px, 4px 0px, 50% 0px;
          background-repeat: repeat-x, repeat-x, repeat;
          background-size: 30px 30px, 30px 30px, 30px 30px;
-         padding: 38px 10px 10px 16px;
+         padding: 38px 20px 20px 20px;
      }
      
      /*CAJA 5*/
@@ -1245,7 +1245,7 @@
      .bck-box5 {
          border: 11px solid #62c3d6;
          border-style: double;
-         padding: 10px;
+         padding: 10px 20px;
      }
      
      /*Títulos*/
