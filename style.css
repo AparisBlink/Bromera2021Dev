@@ -887,12 +887,12 @@
      @import url('https://fonts.googleapis.com/css?family=Dekko&display=swap');
      
      @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
-     
+
      :root {
          --colordeg1:#4A4A4A;
          --colordeg2: #707070;
         --maincolor: #707070;
-        --maintransparent: #70707057;
+        --mainlight: #cecece;
      }
      
      /*Primera pantalla*/
@@ -929,7 +929,37 @@
     #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-number {
         display: none;
     }
-     
+
+    /*SEGUNDA PANTALLA*/
+    #layout-container div[id*="section-screen"] .section .section-data .section-title h1 {
+        font-family: "Roboto", sans-serif;
+        font-size: 42px;
+        font-weight: 400;
+    }
+    #layout-container div[id*="section-screen"] .section .section-data .section-title {
+        background-image: linear-gradient(90deg, var(--colordeg1) 25%, var(--colordeg2));
+    }
+    #layout-container div[id*="section-screen"] .section .section-data .section-title:before {
+        background: var(--colordeg2); 
+    }
+    #layout-container div[id*="section-screen"] .section .section-data .desc-wrapper .section-desc {
+        display: none;
+    } 
+    #layout-container div[id*="section-screen"] .section .section-data .desc-wrapper .section-number {
+        display: none;
+    }
+    #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item .content-img, #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .content-img, #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item .content-img {
+        background-color: var(--maincolor);
+    }
+    #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item:after, #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item:after, #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item:after {
+        background: var(--maincolor);
+    }
+    @media (hover: hover) {
+    #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item:hover, #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item:hover, #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item:hover {
+        background-color: var(--mainlight);
+        color: var(--colordeg1);
+    }
+    }
      /*Loading - Pendiente cambiar por Coursetag*/
      
      .modal-backdrop {
