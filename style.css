@@ -1554,45 +1554,48 @@
      }
      
      /*FLIPBOX*/
-     
      body:not(.edit) .bck-flipbox-face.front { 
      background: rgba(142,142,142,1);
-     background: -moz-radial-gradient(center, ellipse cover, rgba(142,142,142,1) 0%, rgba(95,95,95,1) 100%);
-     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(142,142,142,1)), color-stop(100%, rgba(95,95,95,1)));
-     background: -webkit-radial-gradient(center, ellipse cover, rgba(142,142,142,1) 0%, rgba(95,95,95,1) 100%);
-     background: -o-radial-gradient(center, ellipse cover, rgba(142,142,142,1) 0%, rgba(95,95,95,1) 100%);
-     background: -ms-radial-gradient(center, ellipse cover, rgba(142,142,142,1) 0%, rgba(95,95,95,1) 100%);
-     background: radial-gradient(ellipse at center, rgba(142,142,142,1) 0%, rgba(95,95,95,1) 100%);
+     background: -moz-radial-gradient(center, ellipse cover, var(--colordeg2) 0%, var(--colordeg1) 100%);
+     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, var(--colordeg2)), color-stop(100%, var(--colordeg1)));
+     background: -webkit-radial-gradient(center, ellipse cover, var(--colordeg2) 0%, var(--colordeg1) 100%);
+     background: -o-radial-gradient(center, ellipse cover, var(--colordeg2) 0%, var(--colordeg1) 100%);
+     background: -ms-radial-gradient(center, ellipse cover, var(--colordeg2) 0%, var(--colordeg1) 100%);
+     background: radial-gradient(ellipse at center, var(--colordeg2) 0%, var(--colordeg1) 100%);
      }
-     
      body:not(.edit) .bck-flipbox-face.back {
-         border: #5f5f5f 1px solid;
-         background-color: #5f5f5f;
+         border: var(--colordeg1) 1px solid;
+         background-color: var(--colordeg1);
      }
-     
+     body:not(.edit) .front .bck-flipbox-title, body:not(.edit) .front .bck-flipbox-section {
+       color: #fff;
+     }     
+     body:not(.edit) .bck-flipbox-face.front, body:not(.edit) .bck-flipbox-face.back {
+       border-color: var(--colordeg1)
+     }
+
      /*POP UP*/
-     
      #actividad .info-button {
-         color: #808080;
+         color: var(--maincolor);
      }
      
      /*Pop-Over desplegable*/
      
      .info-template .info-title {
-         color: #808080;
+         color: var(--maincolor);
      }
      
      .info-template .info-icon {
-         color: #808080;
+         color: var(--maincolor);
      }
      
      .info-popover .popover-title, .popover-template .popover-title {
-         color: #808080;
+         color: var(--maincolor);
      }
      
      .info-popover .popover-title:before,
       .popover-template .popover-title:before {
-         color: #808080;
+         color: var(--maincolor);
      
      }
      
