@@ -99,9 +99,50 @@
     *   Array con la definición de los estilos para el editor de CKEditor
     */
     const ckeStyles = [
-      {name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: {'class': 'box-1'}},
-      {name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: {'class': 'box-2'}},
-      {name: 'Énfasis', element: 'span', attributes: {'class': 'bck-enfasis'}}
+			{ name: 'T.01 Rosa', element: 'h4', attributes: { 'class': 'bck-title1'} },
+			{ name: 'T.02 Azul', element: 'h4', attributes: { 'class': 'bck-title2'} },
+			{ name: 'T.03 Verde', element: 'h4', attributes: { 'class': 'bck-title3'} },
+			{ name: 'T.04 Gris', element: 'h4', attributes: { 'class': 'bck-title4'} },
+			{ name: 'T.05 Dorado', element: 'h4', attributes: { 'class': 'bck-title5'} },
+
+      {name: 'Caja 01 Encabezado', type: 'widget', widget: 'blink_box', attributes: {'class': 'bck-box bck-box1'}},
+      {name: 'Caja 02 Naranja redonda', type: 'widget', widget: 'blink_box', attributes: {'class': 'bck-box bck-box2'}},
+      {name: 'Caja 03 Gris redonda', type: 'widget', widget: 'blink_box', attributes: {'class': 'bck-box bck-box3'}},
+      {name: 'Caja 04 Cuaderno', type: 'widget', widget: 'blink_box', attributes: {'class': 'bck-box bck-box4'}},
+      {name: 'Caja 05 Doble borde azul', type: 'widget', widget: 'blink_box', attributes: {'class': 'bck-box bck-box5'}},
+      {name: 'Caja 06 Periodistes', type: 'widget', widget: 'blink_box', attributes: {'class': 'bck-box bck-box6'}},
+      {name: 'Caja 07 Introducción', type: 'widget', widget: 'blink_box', attributes: {'class': 'bck-box bck-box7'}},
+      {name: 'Caja 08 Valore el trimestre', type: 'widget', widget: 'blink_box', attributes: {'class': 'bck-box bck-box8'}},
+      {name: 'Caja 09 Ral·li', type: 'widget', widget: 'blink_box', attributes: {'class': 'bck-box bck-box9'}},
+
+      {name: 'E.01 Rockwell', element: 'span', attributes: {'class': 'bck-enfasis1'}},
+      {name: 'E.02 BrEscolar', element: 'span', attributes: {'class': 'bck-enfasis2'}},
+      {name: 'E.03 Roboto', element: 'span', attributes: {'class': 'bck-enfasis3'}},
+      {name: 'E.04 Rosa', element: 'span', attributes: {'class': 'bck-enfasis4'}},
+      {name: 'E.05 Azul', element: 'span', attributes: {'class': 'bck-enfasis5'}},
+      {name: 'E.06 Verde', element: 'span', attributes: {'class': 'bck-enfasis6'}},
+      {name: 'E.07 Amarillo', element: 'span', attributes: {'class': 'bck-enfasis7'}},
+      {name: 'E.08 Gris', element: 'span', attributes: {'class': 'bck-enfasis8'}},
+
+      { name: 'Icono Act. Fuerte', element: 'span', attributes: { 'class': 'icon icon-actfuerte' } },
+      { name: 'Icono Act. Fácil', element: 'span', attributes: { 'class': 'icon icon-actflojo' } },
+      { name: 'Icono SemRojo', element: 'span', attributes: { 'class': 'icon icon-semrojo' } },
+      { name: 'Icono SemVerde', element: 'span', attributes: { 'class': 'icon icon-semverde' } },
+      { name: 'Icono SemAmarillo', element: 'span', attributes: { 'class': 'icon icon-semnaranja' } },
+
+			{ name: 'L.abc', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' }},
+
+			{ name: 'L.desordenada Amarillo', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-1' }},
+
+			{ name: 'Celda 01', element: 'td', attributes: { 'class': 'bck-td1'}},
+			{ name: 'Celda 02', element: 'td', attributes: { 'class': 'bck-td2'}},
+
+			{ name: 'Table 01', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table1'} },
+			{ name: 'Table 02', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table2'} },
+			{ name: 'Table 03', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table3'} },
+			{ name: 'Table 04', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table4'} },
+			{ name: 'Table 05', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table5'} }
+      
       // Añadir elementos CKEditor aquí.
     ];
     /* harmony default export */ __webpack_exports__["default"] = (ckeStyles);
