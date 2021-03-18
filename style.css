@@ -960,8 +960,41 @@
         color: var(--colordeg1);
     }
     }
-     /*Loading - Pendiente cambiar por Coursetag*/
-     
+    @media (hover: hover) {
+    .go-back button:hover, #layout-container div.go-back button:hover {
+        color: var(--colordeg1);
+    }
+    }
+    #layout-container div[id*="section-screen"] .section .section-content .tabs .tab:not(.active):hover [class*="section-title-"] {
+      color: var(--colordeg1);
+    }
+
+    /*MENU Desplegable*/
+    body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
+    #book-index #indice .units ul li.active a {
+    background: var(--colordeg1);
+    }
+    #book-index .col-main,
+    #book-index #indice .unit-content {
+    background: var(--colordeg1);
+    background: -moz-linear-gradient(0% 50% 0deg, var(--colordeg1) 0%, var(--colordeg2) 99.84%);
+    background: -webkit-linear-gradient(0deg, var(--colordeg1) 0%, var(--colordeg2) 99.84%);
+    background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0, var(--colordeg1)), color-stop(0.9984, var(--colordeg2)));
+    background: -o-linear-gradient(0deg, var(--colordeg1) 0%, var(--colordeg2) 99.84%);
+    background: -ms-linear-gradient(0deg, var(--colordeg1) 0%, var(--colordeg2) 99.84%);
+    background: linear-gradient(90deg, var(--colordeg1) 0%, var(--colordeg2) 99.84%);
+    }
+    #book-index #indice .unit-content a:hover, #book-index #indice li.current a {
+    color: var(--mainlight);
+    }
+    #book-index #indice .unit-content .content .title-buttons .btn {
+    border: 0;
+    }
+    #book-index #indice .unit-content .actividades .item .title {
+    font-size: 20px;
+    }
+
+     /*Loading - Pendiente cambiar por Coursetag*/ 
      .modal-backdrop {
          background-color: #707070 !important;
      }
@@ -1850,36 +1883,7 @@
          border-radius: 0px;
      }
      
-     /*MENU Desplegable*/
-     
-     body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
-      #book-index #indice .units ul li.active a {
-         background: #075278 !important;
-     }
-     
-     #book-index .col-main,
-     #book-index #indice .unit-content {
-         background: #197fb3 !important;
-         background: -moz-linear-gradient(0% 50% 0deg, #075277 0%, #197fb3 99.84%) !important;
-         background: -webkit-linear-gradient(0deg, #075277 0%, #197fb3 99.84%) !important;
-         background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0, #075277), color-stop(0.9984, #197fb3)) !important;
-         background: -o-linear-gradient(0deg, #075277 0%, #197fb3 99.84%) !important;
-         background: -ms-linear-gradient(0deg, #075277 0%, #197fb3 99.84%) !important;
-         background: linear-gradient(90deg, #075277 0%, #197fb3 99.84%) !important;
-     }
-     
-     
-     #book-index #indice .unit-content a:hover, #book-index #indice li.current a {
-         color: #9eefff !important;
-     }
-     
-     #book-index #indice .unit-content .content .title-buttons .btn {
-         border: 0 !important;
-     }
-     
-     #book-index #indice .unit-content .actividades .item .title {
-         font-size: 20px !important;
-     }
+
      
      /*------------------------------------------------------------*/
      /*---------------FIN ESTILO GENERAL---------------------------*/
