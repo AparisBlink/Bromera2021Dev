@@ -1963,7 +1963,7 @@
      }
      /* Cambios por unittag */
      /*--------- unittag_bromeraescolar2020 -----------------------------*/
-      body.unittag_bromeraescolar2020  {
+      .body_clase.content_type_curso_Bromera2021Dev.unittag_bromeraescolar2020  {
         font: 400 22px 'Dekko',sans-serif;
       }    
       .unittag_bromeraescolar2020 p {
