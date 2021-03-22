@@ -1082,30 +1082,7 @@
       margin-bottom: 10px;
     }
 
-     /*unittag_bromeraescolar2020*/
-     body.unittag_bromeraescolar2020  {
-         font: 400 22px 'Dekko',sans-serif;
-     }    
-     .unittag_bromeraescolar2020 p {
-         font-size: 22px;
-         font-family: 'Dekko', sans-serif;
-     }    
-     .unittag_bromeraescolar2020 .texto_curso p {
-         line-height: 1.8em!important;
-     }   
-     .unittag_bromeraescolar2020 .bck-box2 .bck-title p,
-      .unittag_bromeraescolar2020 .bck-box3 .bck-title p,
-      .unittag_bromeraescolar2020 .bck-box4 .bck-title p,
-      .unittag_bromeraescolar2020 .bck-box5 .bck-title p{
-         font-family: "Dekko", sans-serif;
-     }
-     .unittag_bromeraescolar2020 .bck-box2 .bck-content p,
-     .unittag_bromeraescolar2020 .bck-box3 .bck-content p,
-     .unittag_bromeraescolar2020 .bck-box4 .bck-content p,
-     .unittag_bromeraescolar2020 .bck-box5 .bck-content p {
-         font-family: "Dekko", sans-serif;
-         font-size: 22px;
-     }
+
      /*-------------------------*/
      /*------GENERALES----------*/
      /*--------------------------*/
@@ -1984,10 +1961,40 @@
      .libro-right ul li.close-back-wrapper:before, .navbar-divider:before {
          background-color: var(--colordeg1) !important; 
      }
-     
+     /* Cambios por unittag */
+     /*--------- unittag_bromeraescolar2020 -----------------------------*/
+      body.unittag_bromeraescolar2020  {
+        font: 400 22px 'Dekko',sans-serif;
+      }    
+      .unittag_bromeraescolar2020 p {
+        font-size: 22px;
+        font-family: 'Dekko', sans-serif;
+      }    
+      .unittag_bromeraescolar2020 .texto_curso p {
+        line-height: 1.8em!important;
+      }   
+      .unittag_bromeraescolar2020 .bck-box2 .bck-title p,
+      .unittag_bromeraescolar2020 .bck-box3 .bck-title p,
+      .unittag_bromeraescolar2020 .bck-box4 .bck-title p,
+      .unittag_bromeraescolar2020 .bck-box5 .bck-title p{
+        font-family: "Dekko", sans-serif;
+      }
+      .unittag_bromeraescolar2020 .bck-box2 .bck-content p,
+      .unittag_bromeraescolar2020 .bck-box3 .bck-content p,
+      .unittag_bromeraescolar2020 .bck-box4 .bck-content p,
+      .unittag_bromeraescolar2020 .bck-box5 .bck-content p {
+        font-family: "Dekko", sans-serif;
+        font-size: 22px;
+      }
+
      /*Cambios por coursetag*/
-     
      /*--------------------------------COURSETAG coursetag_bromeramusicaverde-----------------------------------------------*/
+     .coursetag_bromeramusicaverde {
+      --colordeg1:#b3b944;
+      --colordeg2: #e1e682;
+     --maincolor: #e1e682;
+     --mainlight: #fdffc9;
+     }
      
      .coursetag_bromeramusicaverde .abp-section_home .abp-section-content .abp-unit:hover {
          -moz-box-shadow: 1px 8px 20px 0px #c5cb5d;
@@ -2007,7 +2014,7 @@
          box-shadow: -2px 5px 12px 0px #5d5d5d;
          z-index: 2;
          background: rgba(179,185,68,1);
-         background: -moz-linear-gradient(left, rgba(179,185,68,1) 0%, rgba(225,230,130,1) 100%);
+         background: -moz-linear-gradient(left, #b3b944 0%, #e1e682 100%);
          background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179,185,68,1)), color-stop(100%, rgba(225,230,130,1)));
          background: -webkit-linear-gradient(left, rgba(179,185,68,1) 0%, rgba(225,230,130,1) 100%);
          background: -o-linear-gradient(left, rgba(179,185,68,1) 0%, rgba(225,230,130,1) 100%);
@@ -2048,9 +2055,7 @@
      .coursetag_bromeramusicaverde .link:hover {
          color: #f9fdb7;
      }
-     
      /*Tabs*/
-     
      .coursetag_bromeramusicaverde .abp-navigation_secondary ul li {
          width: 415px;
          border-left: 10px solid #d8df6b;
@@ -2064,7 +2069,6 @@
      }
      
      /*MENU Desplegable - LLEVA IMPORTANT PARA VERLO EN VISOR PDFS*/
-     
      body:not(.isTablet).coursetag_bromeramusicaverde #book-index #indice .units ul li:not(.disabled) a:hover,
       .coursetag_bromeramusicaverde #book-index #indice .units ul li.active a {
          background: #a9ad52 !important;
@@ -2085,7 +2089,6 @@
      }
      
      /*CAMBIOS PROVISONALES EN SEGUNDA PANTALLA*/
-     
      .coursetag_bromeramusicaverde .abp-section_unit-inner .abp-section-header-top::before {
          border-left: 20px solid #d8de7e;
      }
@@ -2098,25 +2101,20 @@
          border-top-color: #dade7f;
      }
      /*Cambio NAVBAR GENERAL*/
-     
      .coursetag_bromeramusicaverde .libro-left ul li .title {
          background: #a9ad52;
      }
-     
      .coursetag_bromeramusicaverde .libro-right,
      .coursetag_bromeramusicaverde .libro-left {
          background: #a9ad52;    
      }
-     
      .coursetag_bromeramusicaverde .navbar.libro {
          background: #a9ad52 !important;
      }
-     
      .coursetag_bromeramusicaverde .libro-right ul li.close-back-wrapper:after,
      .coursetag_bromeramusicaverde .navbar-divider:after {
          background-color: #a9ad52 !important;
      }
-     
      .coursetag_bromeramusicaverde .libro-right ul li.close-back-wrapper:before,
      .coursetag_bromeramusicaverde .navbar-divider:before {
          background-color: #a9ad52 !important; 
