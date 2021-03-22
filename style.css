@@ -905,7 +905,7 @@
         line-height: 1.2em;
     }
      #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title {
-        background: var(--maincolor);
+        background: var(--colordeg1);
         max-height: 109px;
         word-break: break-word;
         -webkit-box-shadow: 0px 12px 12px 0px #5d5d5d75;
@@ -920,7 +920,7 @@
         display: none;
     }
     #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title:before {
-        background: var(--maincolor);
+        background: var(--colordeg1);
     }
     #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item:after {
         display: none;
