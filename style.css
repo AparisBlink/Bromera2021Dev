@@ -1110,6 +1110,9 @@
       padding-left: 60px;
       padding-right: 60px;
     }
+    #actividad .carousel-inner .item-container {
+      margin-bottom: 80px;
+    }
 
 
      /*--------------------CAJAS PARA LA CABECERA-----------*/
@@ -1754,33 +1757,28 @@
      /*Colores respuestas y soluciones
      CUIDADO CON LOS IMPORTANT, HAY QUE PEDIR QUE LOS QUITEN Y QUE NO PISEN LAS CLASES MÁS ESPECIFICAS*/
      #actividad .respuesta_ok {
-         background: #74d32070;
-         padding: 20px 16px;
-         border: 0 !important;
+         background: #C2EC9D;
+         border-color: #C2EC9D;
+         padding: 8px 25px;
      }
-     
      #actividad .respuesta_ko {
-         background: #ef0c2485;
-         padding: 20px 16px;
-         border: 0 !important;
+         background: #f7808d;
+         border-color:#f7808d;
+         padding: 8px 25px;
      }
-     
      #actividad .solucion {
-         background: #00bdff57;
-         padding: 20px 16px;
-         border: 0 !important;
+         background: #A8E8FF;
+         border-color:#A8E8FF;
+         padding: 8px 25px;
      }
-     
      #actividad .workspace .opcion {
          border: 3px solid #bdbdbd !important;
          border-radius: 0 !important;
          padding: 10px 50px !important;
      }
-     
      #actividad .workspace .opcion:hover {
          background: #dfdfdf9c  !important;
      }
-     
      #actividad .workspace .respuesta_checked {
          background: #bdbdbd !important;
      }
