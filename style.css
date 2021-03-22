@@ -2545,6 +2545,11 @@
      /*------------------------------------------
      ------------------MEDIA QUERIES--------------
      -------------------------------------------*/
+    @media (max-width: 579px) {
+    .body_clase #actividad .carousel-inner .item-container {
+      margin-top: 0;
+    }
+    }
      /* iPads (portrait & landscape) */
      @media only screen 
      and (min-device-width : 768px) 
