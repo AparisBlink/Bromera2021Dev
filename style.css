@@ -1777,7 +1777,7 @@
          padding: 10px 50px !important;
      }
      #actividad .workspace .opcion:hover {
-         background: #dfdfdf9c  !important;
+         background-color: #dfdfdf9c  !important;
      }
      #actividad .workspace .respuesta_checked {
          background: #bdbdbd !important;
