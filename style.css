@@ -973,7 +973,7 @@
     #book-index #indice .units ul li.active a {
     background: var(--colordeg1);
     }
-    body #book-index .col-main,
+    body #book-index #indice .col-indice.col-main,
     body #book-index #indice .unit-content {
     background: var(--colordeg1);
     background: -moz-linear-gradient(0% 50% 0deg, var(--colordeg1) 0%, var(--colordeg2) 99.84%);
@@ -986,6 +986,14 @@
     body #book-index #indice .unit-content a:hover, #book-index #indice li.current a {
     color: var(--mainlight);
     }
+    body:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled).active a,
+    body #book-index #indice .units ul#list-units li:not(.disabled).active a {
+      background: var(--colordeg1);
+    }
+    body:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover,
+     body #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover {
+      background: var(--colordeg1); 
+     }
     body #book-index #indice .unit-content .content .title-buttons .btn {
     border: 0;
     }
@@ -1555,6 +1563,9 @@
      }
      
      /*FLIPBOX*/
+     body:not(.edit) .bck-flipbox {
+     margin: 10px 0 15px; 
+     }
      body:not(.edit) .bck-flipbox-face.front { 
      background: rgba(142,142,142,1);
      background: -moz-radial-gradient(center, ellipse cover, var(--colordeg2) 0%, var(--colordeg1) 100%);
@@ -1568,16 +1579,24 @@
          border: var(--colordeg1) 1px solid;
          background-color: var(--colordeg1);
      }
-     body:not(.edit) .front .bck-flipbox-title, body:not(.edit) .front .bck-flipbox-section {
+     body:not(.edit) .front .bck-flipbox-title,
+      body:not(.edit) .front .bck-flipbox-section {
        color: #fff;
      }     
-     body:not(.edit) .bck-flipbox-face.front, body:not(.edit) .bck-flipbox-face.back {
+     body:not(.edit) .bck-flipbox-face.front,
+      body:not(.edit) .bck-flipbox-face.back {
        border-color: var(--colordeg1)
+     }
+
+     /*Desplegable*/
+     .bck-dropdown {
+       margin: 10px 5px 15px;
      }
 
      /*POP UP*/
      #actividad .info-button {
          color: var(--maincolor);
+         margin: 10px 5px;
      }
      
      /*Pop-Over desplegable*/
