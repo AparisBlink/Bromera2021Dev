@@ -1061,7 +1061,10 @@
         vertical-align: bottom;
         font-weight: bold;
         padding-bottom: 5px;
-    }
+      }
+      #actividad .content .header.empty {
+        display: none;
+      }
 
      
      
@@ -1268,7 +1271,7 @@
      
      .bck-box4 {
          background: #fff;
-         margin-bottom: 40px;
+         margin-bottom: 30px;
          -webkit-box-shadow: 5px 8px 10px 5px #D7D7D7;
          box-shadow: 5px 5px 8px 5px #D7D7D7;
          background-image: -webkit-radial-gradient(#d6d5d6 30%, transparent 20%), -webkit-radial-gradient(#cfcfc3 38%, transparent 24%), -webkit-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 100%);
@@ -1685,60 +1688,50 @@
      }
      
      /*BOTONES BLINK*/
-     
      .btn {
-         font-size: 17px;
+      font-size: 17px;
      }
-     
-     .btn-danger, .btn-danger[disabled] {
-         color: #fff;
-         background-color: #de7689;
-         border-color: transparent;
-         border-radius: 0;
-         background-color: transparent;
-         color: black;
-         border: 2px solid #ad0019;
-     }
-     
+    .btn-danger, .btn-danger[disabled] {
+      color: #fff;
+      background-color: #de7689;
+      border-color: transparent;
+      border-radius: 0;
+      background-color: transparent;
+      color: black;
+      border: 2px solid #ad0019;
+    }
      .btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger {
-         background-color: #ad0019;
+        background-color: #ad0019;
      }
-     
      .btn-primary, .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus {
-         color: #fff;
-         background-color: #3ac62a;
-         opacity: 1;
-         border-radius: 0;
-         background-color: transparent;
-         border: 2px solid #de768a;
-         color: black;
+        color: #fff;
+        opacity: 1;
+        border-radius: 0;
+        background-color: transparent;
+        border: 2px solid #de768a;
+        color: black;
      }
-     
      .btn-solution, .btn-solution.disabled, .btn-solution[disabled], .btn-next, .btn-next.disabled, .btn-next[disabled] {
-         color: #fff;
-         background-color: #00bdff;
-         border-color: transparent;
-         border-radius: 0;
+        color: #fff;
+        background-color: #00bdff;
+        border-color: transparent;
+        border-radius: 0;
      }
-     
      .btn-primary:not([disabled]):hover, .btn-primary:not([disabled]):focus, .btn-primary:not([disabled]):active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
          background-color: #de768a;
-     
      }
-     
      #actividad .content .review .attemps span {
-         background-color: rgba(255, 255, 255, 0);
-           padding: 0px;
-          margin: 0px;
-         font-size: 28px;
-         color: #de768a;
+        background-color: rgba(255, 255, 255, 0);
+        padding: 0px;
+        margin: 0px;
+        font-size: 28px;
+        color: #de768a;
      }
-     
-     .btn-primary[disabled], .btn-primary[disabled]:focus {
-         color: black;
-         background-color: transparent;
-         border-color: #cd7184;
-     }
+      .btn-primary[disabled], .btn-primary[disabled]:focus {
+        color: black;
+        background-color: transparent;
+        border-color: #cd7184;
+      }
      
      /*-------------CAMBIOS EN PLANTILLAS-----------------*/
      
@@ -1760,7 +1753,6 @@
      
      /*Colores respuestas y soluciones
      CUIDADO CON LOS IMPORTANT, HAY QUE PEDIR QUE LOS QUITEN Y QUE NO PISEN LAS CLASES MÁS ESPECIFICAS*/
-     
      #actividad .respuesta_ok {
          background: #74d32070;
          padding: 20px 16px;
@@ -1794,7 +1786,6 @@
      }
      
      /*Inputs*/
-     
      .slide_main input, .slide_main .img-input-container {
          border: 3px solid #CCC;
          border-bottom-color: #CCC;
@@ -1802,24 +1793,17 @@
      
      
      /*PLANTILLA ORDENAR ACTIVIDAD*/
-     
-     #actividad .workspace.ordenar .js-rank-item p {
-         font-size: 25px;
-     }
-     
      #actividad .workspace.ordenar .js-rank-item {
          border: 0;
          border-radius: 0;
          margin: 12px;
-         box-shadow: 0px 0px 9px 2px #757575b5;
+         box-shadow: 2px 4px 6px 0px #757575b5;
      }
      
      /*Plantilla verdadero o falso*/
-     
      .workspace.true-false {
          text-align: center;
      }
-     
      .checkbox-option label.filter-label:before,
       .slides_averages #cont_checkSelfCorrect label:before,
        .slides_averages #cont_checkEvaluation label:before,
@@ -1832,7 +1816,6 @@
          vertical-align: sub;
              filter: hue-rotate(262deg) saturate(0.8);
      }
-     
      .checkbox-option label.filter-label,
       .checkbox-option label.filter-label-append,
        .radio-option label.filter-label {
@@ -1844,9 +1827,11 @@
          padding: 22px 0px 0px 0px;
      }
      
-     
      /*Plantilla test*/
-     
+     .checkbox-option input.filter-checkbox[type="checkbox"]+label.filter-label,
+      .radio-option input.filter-radio[type="radio"]+label.filter-label {
+       display: block;
+     }
      .checkbox-option label.filter-label:before,
       .slides_averages #cont_checkSelfCorrect label:before,
        .slides_averages #cont_checkEvaluation label:before,
@@ -1857,31 +1842,27 @@
          width: 19px;
          vertical-align: sub;
              filter: hue-rotate(262deg) saturate(0.8);
-        }
-     
+      }
      #actividad .workspace.test .respuestas {
          margin-top: .8em;
          margin-bottom: 15px;
          padding-bottom: 1px;
          text-align: center;
      }
-     
      #actividad .workspace.test .un_ejercicio {
          padding: 22px 0px 0px 0px;
          margin: 10px 0;
      }
-     
      .checkbox-option input.filter-checkbox[type="checkbox"]:checked+label.filter-label,
       .slides_averages #cont_checkSelfCorrect label,
        .slides_averages #cont_checkEvaluation label,
         .radio-option input.filter-radio[type="radio"]:checked+label.filter-label {
          background: #bdbdbd;
-        }
+      }
      
      .checkbox-option input.filter-checkbox[type="checkbox"]+label.filter-label,
       .radio-option input.filter-radio[type="radio"]+label.filter-label {
-         padding: 14px 30px;
-         margin-top: 15px;
+         padding: 8px 25px;
          border: 3px solid #bdbdbd;
      }
      
@@ -1891,7 +1872,6 @@
      }
         
      /*Plantilla respuesta mútliple*/
-     
      #actividad .workspace.multiple-choice .opcion p {
          padding: 5px;
          text-align: center;
@@ -1901,13 +1881,23 @@
      .fillblanks-draggable-wrapper .response p {
          font-size: 18px;
      }
-     
      .fillblanks-draggable-wrapper .response {
          border: 3px solid #bdbdbd;
          -webkit-border-radius: 0px;
          -moz-border-radius: 0px;
          border-radius: 0px;
      }
+     /*Plantilla cálculo*/
+     .workspace.calculo table td, th {
+      border: 0;
+     }
+     .workspace.calculo table.marco {
+      border: 0;
+    }
+    .workspace.calculo table {
+      border: 0;
+    }
+
      
 
      
