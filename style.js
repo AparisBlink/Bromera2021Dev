@@ -104,6 +104,8 @@
 			{ name: 'T.03 Verde', element: 'h4', attributes: { 'class': 'bck-title3'} },
 			{ name: 'T.04 Gris', element: 'h4', attributes: { 'class': 'bck-title4'} },
 			{ name: 'T.05 Dorado', element: 'h4', attributes: { 'class': 'bck-title5'} },
+			{ name: 'T.06 General 1', element: 'h4', attributes: { 'class': 'bck-title6'} },
+			{ name: 'T.07 General 2', element: 'h4', attributes: { 'class': 'bck-title7'} },
 
       {name: 'Caja 01 Encabezado', type: 'widget', widget: 'blink_box', attributes: {'class': 'bck-box bck-box1'}},
       {name: 'Caja 02 Naranja redonda', type: 'widget', widget: 'blink_box', attributes: {'class': 'bck-box bck-box2'}},
@@ -114,6 +116,8 @@
       {name: 'Caja 07 Introducción', type: 'widget', widget: 'blink_box', attributes: {'class': 'bck-box bck-box7'}},
       {name: 'Caja 08 Valore el trimestre', type: 'widget', widget: 'blink_box', attributes: {'class': 'bck-box bck-box8'}},
       {name: 'Caja 09 Ral·li', type: 'widget', widget: 'blink_box', attributes: {'class': 'bck-box bck-box9'}},
+      {name: 'Caja 10 General', type: 'widget', widget: 'blink_box', attributes: {'class': 'bck-box bck-box10'}},
+      {name: 'Caja 11 General 2', type: 'widget', widget: 'blink_box', attributes: {'class': 'bck-box bck-box11'}},
 
       {name: 'E.01 Rockwell', element: 'span', attributes: {'class': 'bck-enfasis1'}},
       {name: 'E.02 BrEscolar', element: 'span', attributes: {'class': 'bck-enfasis2'}},
