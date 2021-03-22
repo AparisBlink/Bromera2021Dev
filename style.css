@@ -1121,6 +1121,9 @@
       min-height: 104px;
       margin-bottom: 30px;
      }
+     .bck-content {
+      padding: 0;
+      }
      .bck-box1 .bck-title p {
          font-weight: bold;
          font-size: 27px;
@@ -1201,10 +1204,30 @@
      .bck-box9:before {
          background-image: url(/useruploads/r/a/157854916/activity_other_imported/Bromera_mv1_indice_icono_07.jpg);
      }
-     .bck-content {
-         padding: 0;
-     
+
+
+     .bck-box10 {
+      background: #D2D2D2;
+      margin: 10px auto 15px;
      }
+     .bck-box.bck-box10 .bck-title {
+      background: #6A6E72;
+      color: #fff;
+      font-weight: bold;
+      padding: 5px 20px;
+    }
+    .bck-box.bck-box10 .bck-content {
+      padding: 5px 20px;
+    }
+    .bck-box.bck-box11 {
+      border: 2px solid #6a6e72;
+      padding: 10px 20px;
+      margin: 10px 0;
+    }
+    .bck-box.bck-box11 .bck-title {
+      font-weight: bold;
+      color: #6a6e72;
+    }
      
      
      
@@ -1282,7 +1305,6 @@
      }
      
      /*Títulos*/
-     
      .bck-title1,
      .bck-title2,
      .bck-title3,
@@ -1311,6 +1333,14 @@
      .bck-title5 {
          color: #F4B806;
      }
+     .bck-title6 {
+      font-size: 24px;
+    }
+    .bck-title7 {
+      font-size: 22px;
+    }
+
+
      
      
      /*Listas ordenadas*/
@@ -1559,13 +1589,10 @@
      margin: 10px 0 15px; 
      }
      body:not(.edit) .bck-flipbox-face.front { 
-     background: rgba(142,142,142,1);
-     background: -moz-radial-gradient(center, ellipse cover, var(--colordeg2) 0%, var(--colordeg1) 100%);
-     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, var(--colordeg2)), color-stop(100%, var(--colordeg1)));
-     background: -webkit-radial-gradient(center, ellipse cover, var(--colordeg2) 0%, var(--colordeg1) 100%);
-     background: -o-radial-gradient(center, ellipse cover, var(--colordeg2) 0%, var(--colordeg1) 100%);
-     background: -ms-radial-gradient(center, ellipse cover, var(--colordeg2) 0%, var(--colordeg1) 100%);
-     background: radial-gradient(ellipse at center, var(--colordeg2) 0%, var(--colordeg1) 100%);
+      background: #fff;
+      -moz-box-shadow: 3px 6px 7px #ababab;
+      -webkit-box-shadow: 3px 6px 7px #ababab;
+      box-shadow: 3px 6px 7px #ababab;
      }
      body:not(.edit) .bck-flipbox-face.back {
          border: var(--colordeg1) 1px solid;
@@ -1573,8 +1600,10 @@
      }
      body:not(.edit) .front .bck-flipbox-title,
       body:not(.edit) .front .bck-flipbox-section {
-       color: #fff;
-     }     
+        color: #4A4A4A;
+        font-weight: bold;
+     }
+          
      body:not(.edit) .bck-flipbox-face.front,
       body:not(.edit) .bck-flipbox-face.back {
        border-color: var(--colordeg1)
@@ -1589,6 +1618,7 @@
      #actividad .info-button {
          color: var(--maincolor);
          margin: 10px 5px;
+         cursor: pointer;
      }
      
      /*Pop-Over desplegable*/
