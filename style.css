@@ -2310,7 +2310,11 @@
          }
      }
      
-     
+     @media (max-width: 476px) {
+      #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
+              display: none;
+          }
+     }
      @media (max-width: 767px) {
          .abp-section_unit-inner .abp-section-header-bottom {
              visibility: hidden;
