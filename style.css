@@ -977,7 +977,7 @@
     /*MENU Desplegable*/
     body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
     #book-index #indice .units ul li.active a {
-    background: var(--colordeg1);
+    background: #fff;
     }
     body #book-index #indice .col-indice.col-main,
     body #book-index #indice .unit-content {
@@ -1005,6 +1005,9 @@
     }
     body #book-index #indice .unit-content .actividades .item .title {
     font-size: 20px;
+    }
+    #book-index #indice .unit-content .actividades .item:hover {
+      opacity: 1;
     }
 
     /*Loading - Pendiente cambiar por Coursetag*/ 
@@ -2040,10 +2043,10 @@
         font-size: 22px;
       }
 
-     /*Cambios por coursetag*/
+     /*Cambios por coursetags*/
     /*--------------------------------COURSETAG coursetag_bromeramusica-----------------------------------------------*/
     .coursetag_bromeramusica {
-      --colordeg1:#08547A;
+      --colordeg1:#358c98;
       --colordeg2: #67CFDA;
       --maincolor: #67CFDA;
       --mainlight: #D1F7FF;
@@ -2082,7 +2085,7 @@
       background: url(images/bromera_fondo_verde_resized.jpg);
     }
     .coursetag_bromeramusicaverde #layout-container div[id*="section-screen"] .section .section-data .section-title:before {
-      background: #4ccde0;
+      background: #e1e495;
     }
     /*--------------------------------COURSETAG coursetag_bromeramusicanaranja-----------------------------------------------*/
     .coursetag_bromeramusicanaranja {
@@ -2092,7 +2095,7 @@
     --mainlight: #ffe6b8;
     }
     .coursetag_bromeramusicanaranja #layout-container div[id*="section-screen"] .section .section-data .section-title {
-    background: url(images/bromera_fondo_verde_resized.jpg);
+    background: url(images/bromera_fondo_naranja_resized.jpg);
     }
     .coursetag_bromeramusicanaranja #layout-container div[id*="section-screen"] .section .section-data .section-title:before {
     background: #4ccde0;
@@ -2105,7 +2108,7 @@
           --mainlight: #ffd6df;
           }
           .coursetag_bromeramusicarosa #layout-container div[id*="section-screen"] .section .section-data .section-title {
-          background: url(images/bromera_fondo_verde_resized.jpg);
+          background: url(images/Bromera_musicaprim_Fondo_rosa_resized.jpg);
           }
           .coursetag_bromeramusicarosa #layout-container div[id*="section-screen"] .section .section-data .section-title:before {
           background: #4ccde0;
@@ -2202,6 +2205,9 @@
      }
      
      @media (max-width: 476px) {
+      #layout-container div[id*="section-screen"] .section .section-data {
+        flex: 0;
+      }    
       #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
               display: none !important;
           }
