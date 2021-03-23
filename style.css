@@ -964,7 +964,7 @@
     }
     @media (hover: hover) {
     .go-back button:hover, #layout-container div.go-back button:hover {
-        color: var(--colordeg1);
+        color: var(--mainlight);
     }
     }
     #layout-container div[id*="section-screen"] .section .section-content .tabs .tab:not(.active):hover [class*="section-title-"] {
@@ -2064,11 +2064,12 @@
     background: url(images/mascota_rana.png);
         background-repeat: repeat;
         background-size: auto;
-    padding: 208px 130px;
+    padding: 170px 100px;
     position: absolute;
     bottom: 0px;
     background-size: contain;
     background-repeat: no-repeat;
+    left: 32px;
     }
      /*--------------------------------COURSETAG coursetag_bromeramusicaverde-----------------------------------------------*/
      .coursetag_bromeramusicaverde {
@@ -2205,6 +2206,13 @@
               display: none !important;
           }
      }
+     @media (max-height: 700px) {
+     .coursetag_bromeramusica #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
+      padding: 90px 59px;
+      right: 0;
+      left: auto;
+      }
+    }
      @media (max-width: 767px) {
          .abp-section_unit-inner .abp-section-header-bottom {
              visibility: hidden;
