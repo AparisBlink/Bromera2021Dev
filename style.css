@@ -2023,25 +2023,25 @@
       }
 
      /*Cambios por coursetag*/
-    /*--------------------------------COURSETAG coursetag_bromeramusicaazul-----------------------------------------------*/
-    .coursetag_bromeramusicaazul {
+    /*--------------------------------COURSETAG coursetag_bromeramusica-----------------------------------------------*/
+    .coursetag_bromeramusica {
       --colordeg1:#08547A;
       --colordeg2: #67CFDA;
       --maincolor: #67CFDA;
       --mainlight: #D1F7FF;
     }
-    .coursetag_bromeramusicaazul #layout-container div[id*="section-screen"] .section .section-data .desc-wrapper {
+    .coursetag_bromeramusica #layout-container div[id*="section-screen"] .section .section-data .desc-wrapper {
       display: none;
     }
-    .coursetag_bromeramusicaazul #layout-container div[id*="section-screen"] .section .section-data .section-title {
+    .coursetag_bromeramusica #layout-container div[id*="section-screen"] .section .section-data .section-title {
       background: url(images/bromera_fondo_azul_resized.jpg);
       background-size: cover;;
       align-items: start;
     }
-    .coursetag_bromeramusicaazul #layout-container div[id*="section-screen"] .section .section-data .section-title:before {
+    .coursetag_bromeramusica #layout-container div[id*="section-screen"] .section .section-data .section-title:before {
       background: #4ccde0;
     }
-    .coursetag_bromeramusicaazul #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
+    .coursetag_bromeramusica #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
     content: "";
     background: url(images/mascota_rana.png);
         background-repeat: repeat;
@@ -2059,35 +2059,38 @@
      --maincolor: #e1e682;
      --mainlight: #fdffc9;
     }
-    .coursetag_bromeramusicaverde #layout-container div[id*="section-screen"] .section .section-data .desc-wrapper {
-      display: none;
-    }
     .coursetag_bromeramusicaverde #layout-container div[id*="section-screen"] .section .section-data .section-title {
       background: url(images/bromera_fondo_verde_resized.jpg);
-      background-size: cover;;
-      align-items: start;
     }
     .coursetag_bromeramusicaverde #layout-container div[id*="section-screen"] .section .section-data .section-title:before {
       background: #4ccde0;
     }
     /*--------------------------------COURSETAG coursetag_bromeramusicanaranja-----------------------------------------------*/
     .coursetag_bromeramusicanaranja {
-    --colordeg1:#b3b944;
-    --colordeg2: #e1e682;
-    --maincolor: #e1e682;
-    --mainlight: #fdffc9;
-    }
-    .coursetag_bromeramusicanaranja #layout-container div[id*="section-screen"] .section .section-data .desc-wrapper {
-    display: none;
+    --colordeg1:#ee9820;
+    --colordeg2: #ffcc6f;
+    --maincolor: #ffcc6f;
+    --mainlight: #ffe6b8;
     }
     .coursetag_bromeramusicanaranja #layout-container div[id*="section-screen"] .section .section-data .section-title {
     background: url(images/bromera_fondo_verde_resized.jpg);
-    background-size: cover;;
-    align-items: start;
     }
     .coursetag_bromeramusicanaranja #layout-container div[id*="section-screen"] .section .section-data .section-title:before {
     background: #4ccde0;
     }
+        /*--------------------------------COURSETAG coursetag_bromeramusicarosa-----------------------------------------------*/
+        .coursetag_bromeramusicarosa {
+          --colordeg1:#dd768b;
+          --colordeg2: #ffb4c3;
+          --maincolor: #ffb4c3;
+          --mainlight: #ffd6df;
+          }
+          .coursetag_bromeramusicarosa #layout-container div[id*="section-screen"] .section .section-data .section-title {
+          background: url(images/bromera_fondo_verde_resized.jpg);
+          }
+          .coursetag_bromeramusicarosa #layout-container div[id*="section-screen"] .section .section-data .section-title:before {
+          background: #4ccde0;
+          }
      
  
      
@@ -2116,137 +2119,6 @@
      /*Pirata 2*/
      .coursetag_bromeramascotapirata2 .abp-section_unit-inner .abp-section-header-top::after {
          background-image: url(images/mascota_pirata_2.png);
-     }
-     
-     /*-----------------------------COURSETAG coursetag_bromeragris--------------------------------------------------------*/
-     
-     .coursetag_bromeragris .abp-section_home .abp-section-content .abp-unit:hover {
-         -moz-box-shadow: 1px 8px 20px 0px #707070;
-         -webkit-box-shadow: 1px 8px 20px 0px #707070;
-         box-shadow: 1px 8px 20px 0px #707070;
-     }
-     
-     
-     .coursetag_bromeragris .abp-section_unit-inner .abp-section-content .abp-resources-list-wrapper::-webkit-scrollbar-thumb {
-         background-color: #707070;
-     }
-     
-     .coursetag_bromeragris .abp-unit-header {
-         color: white;
-         -moz-box-shadow: -2px 5px 12px 0px #5d5d5d;
-         -webkit-box-shadow: -2px 5px 12px 0px #5d5d5d;
-         box-shadow: -2px 5px 12px 0px #5d5d5d;
-         z-index: 2;
-         background: #4A4A4A;
-         background: -moz-linear-gradient(left, #4A4A4A 0%, #707070 100%);
-         background: -webkit-gradient(left top, right top, color-stop(0%, #4A4A4A), color-stop(100%, #707070));
-         background: -webkit-linear-gradient(left, #4A4A4A 0%, #707070 100%);
-         background: -o-linear-gradient(left, #4A4A4A 0%, #707070 100%);
-         background: -ms-linear-gradient(left, #4A4A4A 0%, #707070 100%);
-         background: linear-gradient(to right, #4A4A4A 0%, #707070 100%);
-     }
-     .coursetag_bromeragris .abp-unit-header::before {
-         border-top: 15px solid #707070;
-     }
-     .coursetag_bromeragris .abp-resources-list-item-text::before {
-         background: #707070;
-     }
-     .coursetag_bromeragris .abp-resources-list-item-image::before {
-         background: #4A4A4A;
-         background: -moz-linear-gradient(left, #4A4A4A 0%, #707070 100%);
-         background: -webkit-gradient(left top, right top, color-stop(0%, #4A4A4A), color-stop(100%, #707070));
-         background: -webkit-linear-gradient(left, #4A4A4A 0%, #707070 100%);
-         background: -o-linear-gradient(left, #4A4A4A 0%, #707070 100%);
-         background: -ms-linear-gradient(left, #4A4A4A 0%, #707070 100%);
-         background: linear-gradient(to right, #4A4A4A 0%, #707070 100%);
-     }
-     .coursetag_bromeragris .abp-resources-list-item-inner:hover .abp-resources-list-item-text {
-         background: #CBCBCB
-     }
-     .coursetag_bromeragris a:hover,
-     .coursetag_bromeragris a:active,
-     .coursetag_bromeragris a:focus {
-         color: #707070;
-     }
-     .coursetag_bromeragris .link:focus,
-     .coursetag_bromeragris .link:active,
-     .coursetag_bromeragris .link:hover {
-         color: #707070;
-     }
-     
-     /*Tabs*/
-     
-     .coursetag_bromeragris .abp-navigation_secondary ul li {
-         width: 415px;
-         border-left: 10px solid #707070;
-         background: #4A4A4A;
-         background: -moz-linear-gradient(left, #4A4A4A 0%, #707070 100%);
-         background: -webkit-gradient(left top, right top, color-stop(0%, #4A4A4A), color-stop(100%, #707070));
-         background: -webkit-linear-gradient(left, #4A4A4A 0%, #707070 100%);
-         background: -o-linear-gradient(left, #4A4A4A 0%, #707070 100%);
-         background: -ms-linear-gradient(left, #4A4A4A 0%, #707070 100%);
-         background: linear-gradient(to right, #4A4A4A 0%, #707070 100%);
-     }
-     
-     /*MENU Desplegable - LLEVA IMPORTANT PARA VERLO EN VISOR PDFS*/
-     
-     body:not(.isTablet).coursetag_bromeragris #book-index #indice .units ul li:not(.disabled) a:hover,
-      .coursetag_bromeragris #book-index #indice .units ul li.active a {
-         background: #4A4A4A !important;
-     }
-     .coursetag_bromeragris #book-index .col-main,
-     .coursetag_bromeragris #book-index #indice .unit-content {
-         background: #707070 !important;
-     background: -moz-linear-gradient(left, #4A4A4A  0%, #707070 100%) !important;
-     background: -webkit-gradient(left top, right top, color-stop(0%, #4A4A4A), color-stop(100%, #707070)) !important;
-     background: -webkit-linear-gradient(left, #4A4A4A  0%, #707070 100%) !important;
-     background: -o-linear-gradient(left, #4A4A4A  0%, #707070 100%) !important;
-     background: -ms-linear-gradient(left, #4A4A4A  0%, #707070 100%) !important;
-     background: linear-gradient(to right, #4A4A4A  0%, #707070 100%) !important;
-     }
-     .coursetag_bromeragris #book-index #indice .unit-content a:hover,
-     .coursetag_bromeragris #book-index #indice li.current a {
-         color: #707070 !important;
-     }
-     
-     /*CAMBIOS PROVISONALES EN SEGUNDA PANTALLA*/
-     
-     .coursetag_bromeragris .abp-section_unit-inner .abp-section-header-top::before {
-         border-left: 20px solid #707070;
-     }
-     
-     .coursetag_bromeragris .abp-section_unit-inner .abp-section-header-top{
-         background-image: url(/useruploads/r/a/158952166/activity_other_imported/Fons-groc.jpg);
-         background: #707070;
-     }
-     
-     .coursetag_bromeragris .abp-section_unit-inner .abp-section-header::before {
-         border-top-color: #707070;
-     }
-     .abp-section_unit-inner .abp-section-header-top::after {
-         display: none;
-     }
-     /*Cambio NAVBAR GENERAL*/
-     
-     .coursetag_bromeragris .libro-left ul li .title {
-         background: #4A4A4A;
-     }
-     .coursetag_bromeragris .libro-right,
-     .coursetag_bromeragris .libro-left {
-         background: #4A4A4A;    
-     }
-     .coursetag_bromeragris .navbar.libro {
-         background: #4A4A4A !important;
-     }
-     
-     .coursetag_bromeragris .libro-right ul li.close-back-wrapper:after,
-     .coursetag_bromeragris .navbar-divider:after {
-         background-color: #4A4A4A !important;
-     }
-     
-     .coursetag_bromeragris .libro-right ul li.close-back-wrapper:before,
-     .coursetag_bromeragris .navbar-divider:before {
-         background-color: #4A4A4A !important; 
      }
      
      /*------------------------------------------
