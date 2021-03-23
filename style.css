@@ -1645,8 +1645,7 @@
          color: var(--colordeg1);
      
      }
-     
-     
+
      /*ICONOS*/
      .item-container .icon:before {
         content: "";
@@ -2046,7 +2045,7 @@
      /*Cambios por coursetags*/
     /*--------------------------------COURSETAG coursetag_bromeramusica-----------------------------------------------*/
     .coursetag_bromeramusica {
-      --colordeg1:#358c98;
+      --colordeg1:#1ab7ce;
       --colordeg2: #67CFDA;
       --maincolor: #67CFDA;
       --mainlight: #D1F7FF;
