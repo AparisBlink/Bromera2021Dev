@@ -1936,30 +1936,24 @@
      /*-----------------------------------------------------------*/
      
      /*-----------SECCIONES por activitytag_---------------------------------------*/
-     
      /* RETO AZUL activitytag_repteazul*/
-     
      .activitytag_repteazul .bck-box1 {
          border-left-color: #62C3D6;
      }
      
      /* RETO VERDE activitytag_repteverde*/
-     
      .activitytag_repteverde .bck-box1 {
          border-left-color: #DAE06C;
      }
      
-     /* RETO ROJO activitytag_repteverde*/
-     
+     /* RETO ROJO activitytag_repterojo*/
      .activitytag_repterojo .bck-box1 {
          border-left-color: #DE768A;
      }
      
-     
      /*-----------SECCIONES por unittag_---------------------------------------*/
      
      /*Proyecto 2 - unittag_project2*/
-     
      .unittag_project2 .bck-box1 {
          background: #62C3D6;
      }
@@ -1967,13 +1961,11 @@
      .unittag_project2 .bck-box8 {
          background: #DAE06C;
      }
-     
      .unittag_project2 .bck-box9 {
          border-left-color: #DAE06C ;
      }
      
      /*Proyecto 3 - unittag_project3*/
-     
      .unittag_project3 .bck-box1 {
          background: #DAE06C;
      }
@@ -1981,7 +1973,6 @@
      .unittag_project3 .bck-box8 {
          background: #DE768A;
      }
-     
      .unittag_project3 .bck-box9 {
          border-left-color: #DE768A ;
      }
@@ -2146,19 +2137,7 @@
     .body_clase #actividad .carousel-inner .item-container {
       margin-top: 0;
     }
-    }
-     /* iPads (portrait & landscape) */
-     @media only screen 
-     and (min-device-width : 768px) 
-     and (max-device-width : 1024px) {
-     
-         .bck-box1, .bck-box6, .bck-box7, .bck-box8, .bck-box9 {
-             width: 126.1%;
-             left: -16.6%;
-             margin-top: -2%;
-         }
-     }
-     
+    } 
      
      /* Smartphones (portrait & landscape) */
      @media only screen 
