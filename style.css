@@ -2032,10 +2032,14 @@
     .coursetag_bromeramusicaazul #layout-container div[id*="section-screen"] .section .section-data .desc-wrapper {
       display: none;
     }
-    #layout-container div[id*="section-screen"] .section .section-data .section-title {
+    .coursetag_bromeramusicaazul #layout-container div[id*="section-screen"] .section .section-data .section-title {
       background: url(images/bromera_fondo_azul_resized.jpg);
-      align-items: start;;
-  }
+      background-size: cover;;
+      align-items: start;
+    }
+    .coursetag_bromeramusicaazul #layout-container div[id*="section-screen"] .section .section-data .section-title:before {
+      background: #4ccde0;
+    }
      /*--------------------------------COURSETAG coursetag_bromeramusicaverde-----------------------------------------------*/
      .coursetag_bromeramusicaverde {
       --colordeg1:#b3b944;
