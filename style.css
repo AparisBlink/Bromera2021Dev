@@ -940,6 +940,9 @@
       -webkit-box-shadow: 3px 5px 15px 0px var(--mainlight);
       box-shadow: 3px 5px 15px 0px var(--mainlight);
     }
+    body #layout-container #main-screen #course-header .course-title {
+      justify-content: center;
+    }
 
     /*SEGUNDA PANTALLA*/
     #layout-container div[id*="section-screen"] .section .section-data .section-title h1 {
@@ -1021,7 +1024,7 @@
       background-image: none;
     }
     #indice .units ul li a .title {
-      color: #fff;
+      color: #4a4a4a;
     }
 
     /*Loading - Pendiente cambiar por Coursetag*/ 
