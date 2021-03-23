@@ -2117,26 +2117,26 @@
      /*--------------------------------COURSETAGS CAMBIO DE MASCOTA EN SEGUNDA PANTALLA---------------------------------*/
      /*Superheroina*/
      .coursetag_heroina #layout-container div[id*="section-screen"] .section .section-data .section-title {
-         background-image: url(images/mascota_superheroina.png);
+         background: url(images/mascota_superheroina.png);
      }
      /*Loro*/
      .coursetag_loro #layout-container div[id*="section-screen"] .section .section-data .section-title {
-         background-image: url(images/mascota_loro.png);
+         background: url(images/mascota_loro.png);
          padding: 171px 130px;
      }
      /*Cantante*/
      .coursetag_cantante #layout-container div[id*="section-screen"] .section .section-data .section-title {
-         background-image: url(images/mascota_cantante_1.png);
+         background: url(images/mascota_cantante_1.png);
      }
      
      /*Pirata 1*/
      .coursetag_pirata1 #layout-container div[id*="section-screen"] .section .section-data .section-title {
-         background-image: url(images/mascota_pirata_1.png);
+         background: url(images/mascota_pirata_1.png);
      }
      
      /*Pirata 2*/
      .coursetag_pirata2 #layout-container div[id*="section-screen"] .section .section-data .section-title {
-         background-image: url(images/mascota_pirata_2.png);
+         background: url(images/mascota_pirata_2.png);
      }
      
      /*------------------------------------------
