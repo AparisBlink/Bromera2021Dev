@@ -1009,6 +1009,9 @@
     body #book-index #indice .col-indice.col-main .unit-content .material .item .imagen:before {
       background-image: none;
     }
+    #indice .units ul li a .title {
+      color: #fff;
+    }
 
     /*Loading - Pendiente cambiar por Coursetag*/ 
      .modal-backdrop {
