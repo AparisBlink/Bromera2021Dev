@@ -2034,6 +2034,7 @@
     }
     #layout-container div[id*="section-screen"] .section .section-data .section-title {
       background: url(images/bromera_fondo_azul_resized.jpg);
+      align-items: start;;
   }
      /*--------------------------------COURSETAG coursetag_bromeramusicaverde-----------------------------------------------*/
      .coursetag_bromeramusicaverde {
