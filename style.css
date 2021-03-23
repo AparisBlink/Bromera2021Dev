@@ -1851,10 +1851,10 @@
      .workspace.true-false {
          text-align: center;
      }
-     #actividad .item-container .checkbox-option label.filter-label:before,
-     #actividad .item-container .slides_averages #cont_checkSelfCorrect label:before,
-     #actividad .item-container .slides_averages #cont_checkEvaluation label:before,
-     #actividad .item-container .radio-option label.filter-label:before {
+     body:not(.edit) #actividad .item-container .checkbox-option label.filter-label:before,
+     body:not(.edit) #actividad .item-container .slides_averages #cont_checkSelfCorrect label:before,
+     body:not(.edit) #actividad .item-container .slides_averages #cont_checkEvaluation label:before,
+     body:not(.edit) #actividad .item-container .radio-option label.filter-label:before {
      
          display: inline-block;
          left: -3px;
@@ -1863,9 +1863,9 @@
          vertical-align: sub;
              filter: hue-rotate(262deg) saturate(0.8);
      }
-     #actividad .item-container .checkbox-option label.filter-label,
-     #actividad .item-container .checkbox-option label.filter-label-append,
-     #actividad .item-container .radio-option label.filter-label {
+     body:not(.edit) #actividad .item-container .checkbox-option label.filter-label,
+     body:not(.edit) #actividad .item-container .checkbox-option label.filter-label-append,
+     body:not(.edit) #actividad .item-container .radio-option label.filter-label {
          font-size: inherit;
        }
      
@@ -1875,14 +1875,14 @@
      }
      
      /*Plantilla test*/
-     #actividad .item-container .checkbox-option input.filter-checkbox[type="checkbox"]+label.filter-label,
-     #actividad .item-container .radio-option input.filter-radio[type="radio"]+label.filter-label {
+     body:not(.edit) #actividad .item-container .checkbox-option input.filter-checkbox[type="checkbox"]+label.filter-label,
+     body:not(.edit) #actividad .item-container .radio-option input.filter-radio[type="radio"]+label.filter-label {
        display: block;
      }
-     #actividad .item-container .checkbox-option label.filter-label:before,
-     #actividad .item-container .slides_averages #cont_checkSelfCorrect label:before,
-     #actividad .item-container .slides_averages #cont_checkEvaluation label:before,
-     #actividad .item-container .radio-option label.filter-label:before {
+     body:not(.edit) #actividad .item-container .checkbox-option label.filter-label:before,
+     body:not(.edit) #actividad .item-container .slides_averages #cont_checkSelfCorrect label:before,
+     body:not(.edit) #actividad .item-container .slides_averages #cont_checkEvaluation label:before,
+     body:not(.edit) #actividad .item-container .radio-option label.filter-label:before {
          display: inline-block;
          left: -3px;
          position: relative;
@@ -1900,26 +1900,26 @@
          padding: 22px 0px 0px 0px;
          margin: 10px 0;
      }
-     #actividad .item-container .checkbox-option input.filter-checkbox[type="checkbox"]:checked+label.filter-label,
-     #actividad .item-container .slides_averages #cont_checkSelfCorrect label,
-     #actividad .item-container .slides_averages #cont_checkEvaluation label,
-     #actividad .item-container .radio-option input.filter-radio[type="radio"]:checked+label.filter-label {
+     body:not(.edit) #actividad .item-container .checkbox-option input.filter-checkbox[type="checkbox"]:checked+label.filter-label,
+     body:not(.edit) #actividad .item-container .slides_averages #cont_checkSelfCorrect label,
+     body:not(.edit) #actividad .item-container .slides_averages #cont_checkEvaluation label,
+     body:not(.edit) #actividad .item-container .radio-option input.filter-radio[type="radio"]:checked+label.filter-label {
          background: #bdbdbd;
       }
      
-      #actividad .item-container .checkbox-option input.filter-checkbox[type="checkbox"]+label.filter-label,
-      #actividad .item-container .radio-option input.filter-radio[type="radio"]+label.filter-label {
+      body:not(.edit) #actividad .item-container .checkbox-option input.filter-checkbox[type="checkbox"]+label.filter-label,
+      body:not(.edit) #actividad .item-container .radio-option input.filter-radio[type="radio"]+label.filter-label {
          padding: 8px 25px;
          border: 3px solid #bdbdbd;
      }
      
-     #actividad .item-container .checkbox-option input.filter-checkbox[type="checkbox"]+label.filter-label:hover,
-     #actividad .item-container .radio-option input.filter-radio[type="radio"]+label.filter-label:hover {
+     body:not(.edit) #actividad .item-container .checkbox-option input.filter-checkbox[type="checkbox"]+label.filter-label:hover,
+     body:not(.edit) #actividad .item-container .radio-option input.filter-radio[type="radio"]+label.filter-label:hover {
          background: #dfdfdf9c;
      }
         
      /*Plantilla respuesta mútliple*/
-     #actividad .workspace.multiple-choice .opcion p {
+     body:not(.edit) #actividad .workspace.multiple-choice .opcion p {
          padding: 5px;
          text-align: center;
      }
