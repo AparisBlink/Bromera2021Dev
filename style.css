@@ -2085,6 +2085,13 @@
     body:not(.edit).coursetag_bromeramusica #actividad .content .header {
       display: none;
     }
+    .body_clase.content_type_curso_Bromera2021Dev {
+      font: 400 17px 'Roboto',sans-serif;
+  }
+    .coursetag_bromeramusica .bck-title1, .bck-title2, .bck-title3, .bck-title4, .bck-title5 {
+      font-size: 30px;
+    }
+  
      /*--------------------------------COURSETAG coursetag_bromeramusicaverde-----------------------------------------------*/
      .coursetag_bromeramusicaverde {
       --colordeg1:#b3b944;
