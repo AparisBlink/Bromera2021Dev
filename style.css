@@ -1057,7 +1057,7 @@
         display: none;
       }
       body:not(.edit) #actividad .content .header {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         background: var(--colordeg1);
         width: calc(100% + 120px);
         margin-left: -60px;
