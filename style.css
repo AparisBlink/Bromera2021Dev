@@ -987,6 +987,9 @@
     #layout-container .content-title span {
       font-weight: bold;
     }
+    #layout-container *::-webkit-scrollbar-thumb {
+      background-color: var(--maincolor);
+    }
 
     /*MENU Desplegable*/
     body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
@@ -2215,6 +2218,7 @@
               display: none !important;
           }
      }
+
      @media (max-height: 700px) {
      .coursetag_bromeramusica #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
       padding: 90px 59px;
@@ -2229,7 +2233,17 @@
          .abp-section_unit-inner .abp-section-header::before {
              border-top: 20px solid;
          }
-     }  
+     }
+    @media (max-height: 375px), (max-width: 476px) {
+      #layout-container #main-screen #course-header .course-title span {
+        font-size: 17px;
+        line-height: 1.2em;
+    }
+      #layout-container #main-screen #course-header .course-title [class*=section-title-] {
+        font-size: 25px;
+    }
+    }
+
      /************************
      * CSS AÑADIDO POR HTML *
      ************************/
