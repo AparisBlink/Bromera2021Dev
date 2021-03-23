@@ -1033,31 +1033,19 @@
       }
      
     /*Boton de Cerrar el iframe del libro digital*/
-     .btn-close-iframe {
-         background: white;
-         margin-top: 0;
-         padding: 10px 10px 1px 10px;
-         font-size: 21px;
-         border-radius: 0px 10px 0px 0px;
-         -moz-border-radius: 0px 10px 0px 0px;
-         -webkit-border-radius: 0px 10px 0px 0px;
-      }
      .btn-close-iframe a {
-         color: #ff4040;
+         color: #fff;
       }
-      .btn-close-iframe a {
-        color: #ff4040;
-      }
-    
-
-     
       /*ENLACES*/     
-      a:hover, a:active, a:focus {
-        color: #326d78;
+      a:hover,
+       a:active,
+        a:focus {
+        color: var(--maincolor);
+        text-decoration: none;
       }
-      .link:focus, .link:active, .link:hover {
-        color: #a0e7f4;
-      }
+      #actividad .item-container a {
+        text-decoration: underline;
+    }
       /* NAVBAR */
       .navbar-bottom .edit .slider-indicators .concat.active,
        .navbar-bottom .slider-indicators .active {
@@ -1638,6 +1626,15 @@
      .bck-dropdown-content {
       background-color: var(--mainlight);
     }
+    /*Archivo adjunto*/
+    .bck-file-attach span {
+      vertical-align: middle;
+      background: gainsboro;
+    }
+    #actividad .content .bck-file-attach img {
+      filter: brightness(0);
+      -webkit-filter: brightness(0);
+    }
 
      /*POP UP*/
      #actividad .info-button {
@@ -2085,10 +2082,14 @@
     body:not(.edit).coursetag_bromeramusica #actividad .content .header {
       display: none;
     }
-    .body_clase.content_type_curso_Bromera2021Dev {
-      font: 400 17px 'Roboto',sans-serif;
+    .body_clase.content_type_curso_Bromera2021Dev.coursetag_bromeramusica {
+      font: 400 19px 'Roboto',sans-serif;
   }
-    .coursetag_bromeramusica .bck-title1, .bck-title2, .bck-title3, .bck-title4, .bck-title5 {
+    .coursetag_bromeramusica .bck-title1,
+    .coursetag_bromeramusica .bck-title2,
+    .coursetag_bromeramusica .bck-title3,
+    .coursetag_bromeramusica .bck-title4,
+    .coursetag_bromeramusica .bck-title5 {
       font-size: 30px;
     }
   
