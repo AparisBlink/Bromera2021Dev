@@ -2312,7 +2312,7 @@
      
      @media (max-width: 476px) {
       #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
-              display: none;
+              display: none !important;
           }
      }
      @media (max-width: 767px) {
