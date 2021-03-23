@@ -932,10 +932,11 @@
 
     /*SEGUNDA PANTALLA*/
     #layout-container div[id*="section-screen"] .section .section-data .section-title h1 {
-        font-family: "Roboto", sans-serif;
-        font-size: 34px;
-        font-weight: 400;
-        word-break: break-word;
+      font-family: "Roboto", sans-serif;
+      font-size: 34px;
+      font-weight: 800;
+      word-break: break-word;
+      text-shadow: 0 0 7px #00000026;
     }
     #layout-container div[id*="section-screen"] .section .section-data .section-title {
         background-image: linear-gradient(90deg, var(--colordeg1) 25%, var(--colordeg2));
@@ -2040,6 +2041,17 @@
     .coursetag_bromeramusicaazul #layout-container div[id*="section-screen"] .section .section-data .section-title:before {
       background: #4ccde0;
     }
+    .coursetag_bromeramusicaazul #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
+    content: "";
+    background: url(images/mascota_rana.png);
+        background-repeat: repeat;
+        background-size: auto;
+    padding: 208px 130px;
+    position: absolute;
+    bottom: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
      /*--------------------------------COURSETAG coursetag_bromeramusicaverde-----------------------------------------------*/
      .coursetag_bromeramusicaverde {
       --colordeg1:#b3b944;
@@ -2047,279 +2059,39 @@
      --maincolor: #e1e682;
      --mainlight: #fdffc9;
     }
+    .coursetag_bromeramusicaverde #layout-container div[id*="section-screen"] .section .section-data .desc-wrapper {
+      display: none;
+    }
+    .coursetag_bromeramusicaverde #layout-container div[id*="section-screen"] .section .section-data .section-title {
+      background: url(images/bromera_fondo_verde_resized.jpg);
+      background-size: cover;;
+      align-items: start;
+    }
+    .coursetag_bromeramusicaverde #layout-container div[id*="section-screen"] .section .section-data .section-title:before {
+      background: #4ccde0;
+    }
+    /*--------------------------------COURSETAG coursetag_bromeramusicanaranja-----------------------------------------------*/
+    .coursetag_bromeramusicanaranja {
+    --colordeg1:#b3b944;
+    --colordeg2: #e1e682;
+    --maincolor: #e1e682;
+    --mainlight: #fdffc9;
+    }
+    .coursetag_bromeramusicanaranja #layout-container div[id*="section-screen"] .section .section-data .desc-wrapper {
+    display: none;
+    }
+    .coursetag_bromeramusicanaranja #layout-container div[id*="section-screen"] .section .section-data .section-title {
+    background: url(images/bromera_fondo_verde_resized.jpg);
+    background-size: cover;;
+    align-items: start;
+    }
+    .coursetag_bromeramusicanaranja #layout-container div[id*="section-screen"] .section .section-data .section-title:before {
+    background: #4ccde0;
+    }
      
-     /*CAMBIOS PROVISONALES EN SEGUNDA PANTALLA*/
-     .coursetag_bromeramusicaverde .abp-section_unit-inner .abp-section-header-top::before {
-         border-left: 20px solid #d8de7e;
-     }
-     
-     .coursetag_bromeramusicaverde .abp-section_unit-inner .abp-section-header-top{
-         background-image: url(images/bromera_fondo_verde_resized.jpg);
-     }
-     
-     /*-----------------------------COURSETAG coursetag_bromeramusicanaranja--------------------------------------------------------*/
-     
-     .coursetag_bromeramusicanaranja .abp-section_home .abp-section-content .abp-unit:hover {
-         -moz-box-shadow: 1px 8px 20px 0px #F8A227;
-         -webkit-box-shadow: 1px 8px 20px 0px #F8A227;
-         box-shadow: 1px 8px 20px 0px #F8A227;
-     }
-     
-     
-     .coursetag_bromeramusicanaranja .abp-section_unit-inner .abp-section-content .abp-resources-list-wrapper::-webkit-scrollbar-thumb {
-         background-color: #F8A227;
-     }
-     
-     .coursetag_bromeramusicanaranja .abp-unit-header {
-         color: white;
-         -moz-box-shadow: -2px 5px 12px 0px #5d5d5d;
-         -webkit-box-shadow: -2px 5px 12px 0px #5d5d5d;
-         box-shadow: -2px 5px 12px 0px #5d5d5d;
-         z-index: 2;
-         background: #ee9820;
-         background: -moz-linear-gradient(left, #ee9820 0%, #ffcc6f 100%);
-         background: -webkit-gradient(left top, right top, color-stop(0%, #ee9820), color-stop(100%, #ffcc6f));
-         background: -webkit-linear-gradient(left, #ee9820 0%, #ffcc6f 100%);
-         background: -o-linear-gradient(left, #ee9820 0%, #ffcc6f 100%);
-         background: -ms-linear-gradient(left, #ee9820 0%, #ffcc6f 100%);
-         background: linear-gradient(to right, #ee9820 0%, #ffcc6f 100%);
-     }
-     .coursetag_bromeramusicanaranja .abp-unit-header::before {
-         border-top: 15px solid #ffce67;
-     }
-     .coursetag_bromeramusicanaranja .abp-resources-list-item-text::before {
-         background: #f9b233;
-     }
-     .coursetag_bromeramusicanaranja .abp-resources-list-item-image::before {
-         background: #ee9820;
-         background: -moz-linear-gradient(left, #ee9820 0%, #ffcc6f 100%);
-         background: -webkit-gradient(left top, right top, color-stop(0%, #ee9820), color-stop(100%, #ffcc6f));
-         background: -webkit-linear-gradient(left, #ee9820 0%, #ffcc6f 100%);
-         background: -o-linear-gradient(left, #ee9820 0%, #ffcc6f 100%);
-         background: -ms-linear-gradient(left, #ee9820 0%, #ffcc6f 100%);
-         background: linear-gradient(to right, #ee9820 0%, #ffcc6f 100%);
-     }
-     .coursetag_bromeramusicanaranja .abp-resources-list-item-inner:hover .abp-resources-list-item-text {
-         background: #ffe6b8
-     }
-     .coursetag_bromeramusicanaranja a:hover,
-     .coursetag_bromeramusicanaranja a:active,
-     .coursetag_bromeramusicanaranja a:focus {
-         color: #b77500;
-     }
-     .coursetag_bromeramusicanaranja .link:focus,
-     .coursetag_bromeramusicanaranja .link:active,
-     .coursetag_bromeramusicanaranja .link:hover {
-         color: #f3af34;
-     }
-     
-     /*Tabs*/
-     
-     .coursetag_bromeramusicanaranja .abp-navigation_secondary ul li {
-         width: 415px;
-         border-left: 10px solid #ffcc6f;
-         background: #ee9820;
-         background: -moz-linear-gradient(left, #ee9820 0%, #ffcc6f 100%);
-         background: -webkit-gradient(left top, right top, color-stop(0%, #ee9820), color-stop(100%, #ffcc6f));
-         background: -webkit-linear-gradient(left, #ee9820 0%, #ffcc6f 100%);
-         background: -o-linear-gradient(left, #ee9820 0%, #ffcc6f 100%);
-         background: -ms-linear-gradient(left, #ee9820 0%, #ffcc6f 100%);
-         background: linear-gradient(to right, #ee9820 0%, #ffcc6f 100%);
-     }
-     
-     /*MENU Desplegable - LLEVA IMPORTANT PARA VERLO EN VISOR PDFS*/
-     
-     body:not(.isTablet).coursetag_bromeramusicanaranja #book-index #indice .units ul li:not(.disabled) a:hover,
-      .coursetag_bromeramusicanaranja #book-index #indice .units ul li.active a {
-         background: #cd7800 !important;
-     }
-     .coursetag_bromeramusicanaranja #book-index .col-main,
-     .coursetag_bromeramusicanaranja #book-index #indice .unit-content {
-         background: #c27200 !important;
-     background: -moz-linear-gradient(left, #cd7800  0%, #ffa628 100%) !important;
-     background: -webkit-gradient(left top, right top, color-stop(0%, #cd7800), color-stop(100%, #ffa628)) !important;
-     background: -webkit-linear-gradient(left, #cd7800  0%, #ffa628 100%) !important;
-     background: -o-linear-gradient(left, #cd7800  0%, #ffa628 100%) !important;
-     background: -ms-linear-gradient(left, #cd7800  0%, #ffa628 100%) !important;
-     background: linear-gradient(to right, #cd7800  0%, #ffa628 100%) !important;
-     }
-     .coursetag_bromeramusicanaranja #book-index #indice .unit-content a:hover,
-     .coursetag_bromeramusicanaranja #book-index #indice li.current a {
-         color: #ffc676 !important;
-     }
-     
-     /*CAMBIOS PROVISONALES EN SEGUNDA PANTALLA*/
-     
-     .coursetag_bromeramusicanaranja .abp-section_unit-inner .abp-section-header-top::before {
-         border-left: 20px solid #eebb3b;
-     }
-     
-     .coursetag_bromeramusicanaranja .abp-section_unit-inner .abp-section-header-top{
-         background-image: url(/useruploads/r/a/158952166/activity_other_imported/Fons-groc.jpg);
-     }
-     
-     .coursetag_bromeramusicanaranja .abp-section_unit-inner .abp-section-header::before {
-         border-top-color: #f0be4c;
-     }
-     /*Cambio NAVBAR GENERAL*/
-     
-     .coursetag_bromeramusicanaranja .libro-left ul li .title {
-         background: #c27200;
-     }
-     .coursetag_bromeramusicanaranja .libro-right,
-     .coursetag_bromeramusicanaranja .libro-left {
-         background: #c27200;    
-     }
-     .coursetag_bromeramusicanaranja .navbar.libro {
-         background: #c27200 !important;
-     }
-     
-     .coursetag_bromeramusicanaranja .libro-right ul li.close-back-wrapper:after,
-     .coursetag_bromeramusicanaranja .navbar-divider:after {
-         background-color: #c27200 !important;
-     }
-     
-     .coursetag_bromeramusicanaranja .libro-right ul li.close-back-wrapper:before,
-     .coursetag_bromeramusicanaranja .navbar-divider:before {
-         background-color: #c27200 !important; 
-     }
-     
-     /*--------------------------------COURSETAG coursetag_bromeramusicarosa-------------------------------------------------------*/
-     
-     .coursetag_bromeramusicarosa .abp-section_home .abp-section-content .abp-unit:hover {
-         -moz-box-shadow: 1px 8px 20px 0px #DD768B;
-         -webkit-box-shadow: 1px 8px 20px 0px #DD768B;
-         box-shadow: 1px 8px 20px 0px #DD768B;
-     }
+ 
      
      
-     .coursetag_bromeramusicarosa .abp-section_unit-inner .abp-section-content .abp-resources-list-wrapper::-webkit-scrollbar-thumb {
-         background-color: #DD768B;
-     }
-     
-     .coursetag_bromeramusicarosa .abp-unit-header {
-         color: white;
-         -moz-box-shadow: -2px 5px 12px 0px #5d5d5d;
-         -webkit-box-shadow: -2px 5px 12px 0px #5d5d5d;
-         box-shadow: -2px 5px 12px 0px #5d5d5d;
-         z-index: 2;
-         background: #dd768b;
-         background: -moz-linear-gradient(left, #dd768b 0%, #ffb4c3 100%);
-         background: -webkit-gradient(left top, right top, color-stop(0%, #dd768b), color-stop(100%, #ffb4c3));
-         background: -webkit-linear-gradient(left, #dd768b 0%, #ffb4c3 100%);
-         background: -o-linear-gradient(left, #dd768b 0%, #ffb4c3 100%);
-         background: -ms-linear-gradient(left, #dd768b 0%, #ffb4c3 100%);
-         background: linear-gradient(to right, #dd768b 0%, #ffb4c3 100%);
-     }
-     
-     .coursetag_bromeramusicarosa .abp-unit-header::before {
-         border-top: 15px solid #ffb4c3;
-     }
-     
-     .coursetag_bromeramusicarosa .abp-resources-list-item-text::before {
-         background: #ffb4c3;
-     }
-     
-     .coursetag_bromeramusicarosa .abp-resources-list-item-image::before {
-         background: #dd768b;
-         background: -moz-linear-gradient(left, #dd768b 0%, #ffb4c3 100%);
-         background: -webkit-gradient(left top, right top, color-stop(0%, #dd768b), color-stop(100%, #ffb4c3));
-         background: -webkit-linear-gradient(left, #dd768b 0%, #ffb4c3 100%);
-         background: -o-linear-gradient(left, #dd768b 0%, #ffb4c3 100%);
-         background: -ms-linear-gradient(left, #dd768b 0%, #ffb4c3 100%);
-         background: linear-gradient(to right, #dd768b 0%, #ffb4c3 100%);
-     }
-     
-     .coursetag_bromeramusicarosa .abp-resources-list-item-inner:hover .abp-resources-list-item-text {
-         background: #ffd6df
-     }
-     
-     .coursetag_bromeramusicarosa a:hover,
-     .coursetag_bromeramusicarosa a:active,
-     .coursetag_bromeramusicarosa a:focus {
-         color: #914050;
-     }
-     
-     .coursetag_bromeramusicarosa .link:focus,
-     .coursetag_bromeramusicarosa .link:active,
-     .coursetag_bromeramusicarosa .link:hover {
-         color: #ffd6df;
-     }
-     
-     /*Tabs*/
-     
-     .coursetag_bromeramusicarosa .abp-navigation_secondary ul li {
-         width: 415px;
-         border-left: 10px solid #ffb4c3;
-         background: #dd768b;
-         background: -moz-linear-gradient(left, #dd768b 0%, #ffb4c3 100%);
-         background: -webkit-gradient(left top, right top, color-stop(0%, #dd768b), color-stop(100%, #ffb4c3));
-         background: -webkit-linear-gradient(left, #dd768b 0%, #ffb4c3 100%);
-         background: -o-linear-gradient(left, #dd768b 0%, #ffb4c3 100%);
-         background: -ms-linear-gradient(left, #dd768b 0%, #ffb4c3 100%);
-         background: linear-gradient(to right, #dd768b 0%, #ffb4c3 100%);
-     }
-     
-     /*MENU Desplegable - LLEVA IMPORTANT PARA VERLO EN VISOR PDFS*/
-     
-     body:not(.isTablet).coursetag_bromeramusicarosa #book-index #indice .units ul li:not(.disabled) a:hover,
-      .coursetag_bromeramusicarosa #book-index #indice .units ul li.active a {
-         background: #dd768b !important;
-     }
-     .coursetag_bromeramusicarosa #book-index .col-main,
-     .coursetag_bromeramusicarosa #book-index #indice .unit-content {
-         background: #c27200 !important;
-     background: -moz-linear-gradient(left, #dd768b  0%, #ffb4c3 100%) !important;
-     background: -webkit-gradient(left top, right top, color-stop(0%, #dd768b), color-stop(100%, #ffb4c3)) !important;
-     background: -webkit-linear-gradient(left, #dd768b  0%, #ffb4c3 100%) !important;
-     background: -o-linear-gradient(left, #dd768b  0%, #ffb4c3 100%) !important;
-     background: -ms-linear-gradient(left, #dd768b  0%, #ffb4c3 100%) !important;
-     background: linear-gradient(to right, #dd768b  0%, #ffb4c3 100%) !important;
-     }
-     .coursetag_bromeramusicarosa #book-index #indice .unit-content a:hover,
-     .coursetag_bromeramusicarosa #book-index #indice li.current a {
-         color: #ffc1ce !important;
-     }
-     
-     /*CAMBIOS PROVISONALES EN SEGUNDA PANTALLA*/
-     
-     .coursetag_bromeramusicarosa .abp-section_unit-inner .abp-section-header-top::before {
-         border-left: 20px solid #cf7c98;
-     }
-     
-     .coursetag_bromeramusicarosa .abp-section_unit-inner .abp-section-header::before {
-         border-top-color: #d387a1;
-     }
-     
-     .coursetag_bromeramusicarosa .abp-section_unit-inner .abp-section-header-top{
-         background-image: url(/useruploads/r/a/158994226/activity_other_imported/Bromera_musicaprim_Fondo-rosa.jpg);
-     }
-     /*Cambio NAVBAR GENERAL*/
-     
-     .coursetag_bromeramusicarosa .libro-left ul li .title {
-         background: #de778c;
-     }
-     
-     .coursetag_bromeramusicarosa .libro-right,
-     .coursetag_bromeramusicarosa .libro-left {
-         background: #de778c;    
-     }
-     
-     
-     
-     .coursetag_bromeramusicarosa .navbar.libro {
-         background: #de778c !important;
-     }
-     
-     .coursetag_bromeramusicarosa .libro-right ul li.close-back-wrapper:after,
-     .coursetag_bromeramusicarosa .navbar-divider:after {
-         background-color: #de778c !important;
-     }
-     
-     .coursetag_bromeramusicarosa .libro-right ul li.close-back-wrapper:before,
-     .coursetag_bromeramusicarosa .navbar-divider:before {
-         background-color: #de778c !important; 
-     }
      
      /*--------------------------------COURSETAGS CAMBIO DE MASCOTA EN SEGUNDA PANTALLA---------------------------------*/
      /*Chica*/
