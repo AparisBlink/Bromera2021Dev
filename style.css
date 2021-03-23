@@ -1144,7 +1144,7 @@
      .bck-box8:after,
      .bck-box9:after { 
          content: "";
-         background-image: url(/useruploads/r/a/154157266/activity_other_imported/logo_Musica-en-moviment.png);
+         background-image: url(images/logo_bromera_musica.png);
          padding: 65px;
          background-size: contain;
          background-repeat: no-repeat;
@@ -1169,7 +1169,7 @@
          border-left: 134px solid #F4B806;
      }
      .bck-box1:before {
-         background-image: url(/useruploads/r/a/153881856/activity_other_imported/T_Musica-en-moviment-1-9_diana.png);
+         background-image: url(images/icono_diana.png);
          top:21px;
      }
      .bck-box6 {
@@ -1179,7 +1179,7 @@
          border-left: 134px solid #6A6E72;
      }
      .bck-box6:before {
-         background-image: url(/useruploads/r/a/157854866/activity_other_imported/Bromera_mv1_indice_icono_04.jpg);
+         background-image: url(images/icono_periodistas_musicales.jpg);
      }
      .bck-box7 {
          display: flex;
@@ -1194,7 +1194,7 @@
          border-left: 134px solid #6A6E72;
      }
      .bck-box8:before {
-         background-image: url(/useruploads/r/a/157854906/activity_other_imported/Bromera_mv1_indice_icono_06.jpg);
+         background-image: url(images/icono_valore_trimestre.jpg);
      }
      .bck-box9 {
          background: #F2F1F3;
@@ -1203,16 +1203,16 @@
          border-left: 134px solid #62C3D6 ;
      }
      .bck-box9:before {
-         background-image: url(/useruploads/r/a/157854916/activity_other_imported/Bromera_mv1_indice_icono_07.jpg);
+         background-image: url(images/icono_rali.jpg);
      }
 
 
      .bck-box10 {
-      background: #D2D2D2;
+      background: var(--mainlight) ;
       margin: 10px auto 15px;
      }
      .bck-box.bck-box10 .bck-title {
-      background: #6A6E72;
+      background: var(--colordeg1);
       color: #fff;
       font-weight: bold;
       padding: 5px 20px;
@@ -1221,13 +1221,13 @@
       padding: 5px 20px;
     }
     .bck-box.bck-box11 {
-      border: 2px solid #6a6e72;
+      border: 2px solid var(--colordeg1);
       padding: 10px 20px;
       margin: 10px 0;
     }
     .bck-box.bck-box11 .bck-title {
       font-weight: bold;
-      color: #6a6e72;
+      color: var(--colordeg1);
     }
      
      
@@ -1659,23 +1659,22 @@
         margin-top: 0px;
      }
      .item-container .icon-actfuerte:before {
-         background-image: url(/useruploads/r/a/156900016/activity_other_imported/Bromera_icono_test_fuerte.png);
+         background-image: url(images/icono_test_fuerte.png);
          vertical-align: middle;
      }
      .item-container .icon-actflojo:before {
-         background-image: url(/useruploads/r/a/156900026/activity_other_imported/Bromera_icono_test_flojo.png);
+         background-image: url(images/icono_test_facil.png);
          vertical-align: middle;
      }
      .item-container .icon-semrojo:before {
-         background-image: url(/useruploads/r/a/158340486/activity_other_imported/Bromera_Musica_01_00_ImgRoj_01.png);
+         background-image: url(images/icono_circulo_rojo.png);
      }
      .item-container .icon-semverde:before {
-         background-image: url(/useruploads/r/a/158340536/activity_other_imported/Bromera_Musica_01_00_ImgVerde_01.png);
+         background-image: url(images/icono_circulo_verde.png);
      }
      .item-container .icon-semnaranja:before {
-         background-image: url(/useruploads/r/a/158340506/activity_other_imported/Bromera_Musica_01_00_ImgAma_01.png);
+         background-image: url(images/icono_circulo_amarillo.png);
      }
-     
      
      /*Icono audio por defecto*/
      
@@ -1683,7 +1682,7 @@
          height: 27px !important;
          width: 27px;
          display: inline-block;
-         background-image: url(/useruploads/r/a/153910246/activity_other_imported/Icono_audio_Bromera.png);
+         background-image: url(images/icono_audio_bromera.png);
          background-repeat: no-repeat;
          background-size: contain;
          background-position: center center !important;
@@ -2023,6 +2022,13 @@
       }
 
      /*Cambios por coursetag*/
+    /*--------------------------------COURSETAG coursetag_bromeramusicaazul-----------------------------------------------*/
+    .coursetag_bromeramusicaazul {
+      --colordeg1:#08547A;
+      --colordeg2: #67CFDA;
+      --maincolor: #67CFDA;
+      --mainlight: #D1F7FF;
+      }
      /*--------------------------------COURSETAG coursetag_bromeramusicaverde-----------------------------------------------*/
      .coursetag_bromeramusicaverde {
       --colordeg1:#b3b944;
@@ -2037,7 +2043,7 @@
      }
      
      .coursetag_bromeramusicaverde .abp-section_unit-inner .abp-section-header-top{
-         background-image: url(/useruploads/r/a/158778156/activity_other_imported/Fons-verd.jpg);
+         background-image: url(images/bromera_fondo_verde_resized.jpg);
      }
      
      /*-----------------------------COURSETAG coursetag_bromeramusicanaranja--------------------------------------------------------*/
@@ -2307,26 +2313,26 @@
      /*--------------------------------COURSETAGS CAMBIO DE MASCOTA EN SEGUNDA PANTALLA---------------------------------*/
      /*Chica*/
      .coursetag_bromeramascotachica .abp-section_unit-inner .abp-section-header-top::after {
-         background-image: url(/useruploads/r/a/158778196/activity_other_imported/Sona-Repte_03.png);
+         background-image: url(images/mascota_superheroina.png);
      }
      /*Loro*/
      .coursetag_bromeramascotaloro .abp-section_unit-inner .abp-section-header-top::after {
-         background-image: url(/useruploads/r/a/158953336/activity_other_imported/Somni-Repte_01.png);
+         background-image: url(images/mascota_loro.png);
          padding: 171px 130px;
      }
      /*Chico*/
      .coursetag_bromeramascotachico .abp-section_unit-inner .abp-section-header-top::after {
-         background-image: url(/useruploads/r/a/158953346/activity_other_imported/Vals-Repte_01.png);
+         background-image: url(images/mascota_cantante_1.png);
      }
      
      /*Pirata 1*/
      .coursetag_bromeramascotapirata1 .abp-section_unit-inner .abp-section-header-top::after {
-         background-image: url(/useruploads/r/a/158953376/activity_other_imported/Piranotes-Repte_01.png);
+         background-image: url(images/mascota_pirata_1.png);
      }
      
      /*Pirata 2*/
      .coursetag_bromeramascotapirata2 .abp-section_unit-inner .abp-section-header-top::after {
-         background-image: url(/useruploads/r/a/158953386/activity_other_imported/Piranotes-Repte_03.png);
+         background-image: url(images/mascota_pirata_2.png);
      }
      
      /*-----------------------------COURSETAG coursetag_bromeragris--------------------------------------------------------*/
