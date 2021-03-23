@@ -1003,11 +1003,11 @@
     body #book-index #indice .unit-content .content .title-buttons .btn {
     border: 0;
     }
-    body #book-index #indice .unit-content .actividades .item .title {
-    font-size: 20px;
-    }
     #book-index #indice .unit-content .actividades .item:hover {
       opacity: 1;
+    }
+    body #book-index #indice .col-indice.col-main .unit-content .material .item .imagen:before {
+      background-image: none;
     }
 
     /*Loading - Pendiente cambiar por Coursetag*/ 
