@@ -2028,14 +2028,20 @@
       --colordeg2: #67CFDA;
       --maincolor: #67CFDA;
       --mainlight: #D1F7FF;
-      }
+    }
+    .coursetag_bromeramusicaazul #layout-container div[id*="section-screen"] .section .section-data .desc-wrapper {
+      display: none;
+    }
+    #layout-container div[id*="section-screen"] .section .section-data .section-title {
+      background: url(bromera_fondo_azul_resized.jpg);
+  }
      /*--------------------------------COURSETAG coursetag_bromeramusicaverde-----------------------------------------------*/
      .coursetag_bromeramusicaverde {
       --colordeg1:#b3b944;
       --colordeg2: #e1e682;
      --maincolor: #e1e682;
      --mainlight: #fdffc9;
-     }
+    }
      
      /*CAMBIOS PROVISONALES EN SEGUNDA PANTALLA*/
      .coursetag_bromeramusicaverde .abp-section_unit-inner .abp-section-header-top::before {
