@@ -2063,16 +2063,14 @@
       background: #4ccde0;
     }
     .coursetag_bromeramusica #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
-    content: "";
-    background: url(images/mascota_rana.png);
-        background-repeat: repeat;
-        background-size: auto;
-    padding: 170px 100px;
-    position: absolute;
-    bottom: 0px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    left: 32px;
+      content: "";
+      background-image: url(images/mascota_rana.png);
+      padding: 170px 100px;
+      position: absolute;
+      bottom: 0px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      left: 32px;
     }
      /*--------------------------------COURSETAG coursetag_bromeramusicaverde-----------------------------------------------*/
      .coursetag_bromeramusicaverde {
@@ -2117,26 +2115,26 @@
      /*--------------------------------COURSETAGS CAMBIO DE MASCOTA EN SEGUNDA PANTALLA---------------------------------*/
      /*Superheroina*/
      .coursetag_heroina #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
-         background: url(images/mascota_superheroina.png);
+         background-image: url(images/mascota_superheroina.png);
      }
      /*Loro*/
      .coursetag_loro #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
-         background: url(images/mascota_loro.png);
+         background-image: url(images/mascota_loro.png);
          padding: 171px 130px;
      }
      /*Cantante*/
      .coursetag_cantante #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
-         background: url(images/mascota_cantante_1.png);
+         background-image: url(images/mascota_cantante_1.png);
      }
      
      /*Pirata 1*/
      .coursetag_pirata1 #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
-         background: url(images/mascota_pirata_1.png);
+         background-image: url(images/mascota_pirata_1.png);
      }
      
      /*Pirata 2*/
      .coursetag_pirata2 #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
-         background: url(images/mascota_pirata_2.png);
+         background-image: url(images/mascota_pirata_2.png);
      }
      
      /*------------------------------------------
