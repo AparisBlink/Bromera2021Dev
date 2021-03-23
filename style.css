@@ -2071,6 +2071,9 @@
       background-repeat: no-repeat;
       left: 32px;
     }
+    body:not(.edit).coursetag_bromeramusica #actividad .content .header {
+      display: none;
+    }
      /*--------------------------------COURSETAG coursetag_bromeramusicaverde-----------------------------------------------*/
      .coursetag_bromeramusicaverde {
       --colordeg1:#b3b944;
