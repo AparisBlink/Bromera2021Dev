@@ -929,6 +929,17 @@
     #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-number {
         display: none;
     }
+    #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item,
+     #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item * {
+      -moz-transition: box-shadow 0.2s ease-in-out;  
+      -webkit-transition: box-shadow 0.2s ease-in-out;  
+      transition: box-shadow 0.2s ease-in-out;  
+    }
+    #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item:hover {
+      -moz-box-shadow: 3px 5px 15px 0px var(--mainlight);
+      -webkit-box-shadow: 3px 5px 15px 0px var(--mainlight);
+      box-shadow: 3px 5px 15px 0px var(--mainlight);
+    }
 
     /*SEGUNDA PANTALLA*/
     #layout-container div[id*="section-screen"] .section .section-data .section-title h1 {
@@ -1620,7 +1631,10 @@
      /*Desplegable*/
      .bck-dropdown {
        margin: 10px 5px 15px;
-     }
+    }
+     .bck-dropdown-content {
+      background-color: var(--mainlight);
+    }
 
      /*POP UP*/
      #actividad .info-button {
