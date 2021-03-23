@@ -2098,48 +2098,44 @@
     background: url(images/bromera_fondo_naranja_resized.jpg);
     }
     .coursetag_bromeramusicanaranja #layout-container div[id*="section-screen"] .section .section-data .section-title:before {
-    background: #4ccde0;
+    background: #ffd17c;
     }
-        /*--------------------------------COURSETAG coursetag_bromeramusicarosa-----------------------------------------------*/
-        .coursetag_bromeramusicarosa {
-          --colordeg1:#dd768b;
-          --colordeg2: #ffb4c3;
-          --maincolor: #ffb4c3;
-          --mainlight: #ffd6df;
-          }
-          .coursetag_bromeramusicarosa #layout-container div[id*="section-screen"] .section .section-data .section-title {
-          background: url(images/Bromera_musicaprim_Fondo_rosa_resized.jpg);
-          }
-          .coursetag_bromeramusicarosa #layout-container div[id*="section-screen"] .section .section-data .section-title:before {
-          background: #4ccde0;
-          }
-     
- 
-     
-     
+    /*--------------------------------COURSETAG coursetag_bromeramusicarosa-----------------------------------------------*/
+    .coursetag_bromeramusicarosa {
+      --colordeg1:#dd768b;
+      --colordeg2: #ffb4c3;
+      --maincolor: #ffb4c3;
+      --mainlight: #ffd6df;
+    }
+    .coursetag_bromeramusicarosa #layout-container div[id*="section-screen"] .section .section-data .section-title {
+      background: url(images/Bromera_musicaprim_Fondo_rosa_resized.jpg);
+    }
+    .coursetag_bromeramusicarosa #layout-container div[id*="section-screen"] .section .section-data .section-title:before {
+      background: #f0b0c0;
+    }
      
      /*--------------------------------COURSETAGS CAMBIO DE MASCOTA EN SEGUNDA PANTALLA---------------------------------*/
-     /*Chica*/
-     .coursetag_bromeramascotachica .abp-section_unit-inner .abp-section-header-top::after {
+     /*Superheroina*/
+     .coursetag_heroina #layout-container div[id*="section-screen"] .section .section-data .section-title {
          background-image: url(images/mascota_superheroina.png);
      }
      /*Loro*/
-     .coursetag_bromeramascotaloro .abp-section_unit-inner .abp-section-header-top::after {
+     .coursetag_loro #layout-container div[id*="section-screen"] .section .section-data .section-title {
          background-image: url(images/mascota_loro.png);
          padding: 171px 130px;
      }
-     /*Chico*/
-     .coursetag_bromeramascotachico .abp-section_unit-inner .abp-section-header-top::after {
+     /*Cantante*/
+     .coursetag_cantante #layout-container div[id*="section-screen"] .section .section-data .section-title {
          background-image: url(images/mascota_cantante_1.png);
      }
      
      /*Pirata 1*/
-     .coursetag_bromeramascotapirata1 .abp-section_unit-inner .abp-section-header-top::after {
+     .coursetag_pirata1 #layout-container div[id*="section-screen"] .section .section-data .section-title {
          background-image: url(images/mascota_pirata_1.png);
      }
      
      /*Pirata 2*/
-     .coursetag_bromeramascotapirata2 .abp-section_unit-inner .abp-section-header-top::after {
+     .coursetag_pirata2 #layout-container div[id*="section-screen"] .section .section-data .section-title {
          background-image: url(images/mascota_pirata_2.png);
      }
      
