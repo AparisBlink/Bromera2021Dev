@@ -1629,20 +1629,20 @@
      /*Pop-Over desplegable*/
      
      .info-template .info-title {
-         color: var(--maincolor);
+         color: var(--colordeg1);
      }
      
      .info-template .info-icon {
-         color: var(--maincolor);
+         color: var(--colordeg1);
      }
      
      .info-popover .popover-title, .popover-template .popover-title {
-         color: var(--maincolor);
+         color: var(--colordeg1);
      }
      
      .info-popover .popover-title:before,
       .popover-template .popover-title:before {
-         color: var(--maincolor);
+         color: var(--colordeg1);
      
      }
      
