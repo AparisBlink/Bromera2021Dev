@@ -990,6 +990,12 @@
     #layout-container *::-webkit-scrollbar-thumb {
       background-color: var(--maincolor);
     }
+    /*Ruta para visualizar candados desde Github*/
+    #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item .content-lock:before,
+     #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .content-lock:before,
+      #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item .content-lock:before {
+        background-image: url(/themes/responsive/assets/styles/generic/images/padlock-sprite.png); 
+    }
 
     /*MENU Desplegable*/
     body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
@@ -1048,13 +1054,37 @@
       }
       #actividad .item-container a {
         text-decoration: underline;
+      }
+      .go-back button:active,
+       #layout-container div.go-back button:active {
+        color: var(--maincolor);
     }
       /* NAVBAR */
       .navbar-bottom .edit .slider-indicators .concat.active,
        .navbar-bottom .slider-indicators .active {
         background-color: #de768a;
       }
-      /*HEADER*/
+      /*Cambio NAVBAR GENERAL*/
+      .libro-left ul li .title {
+        background: var(--colordeg1);
+      }
+      .libro-right, .libro-left {
+        background: var(--colordeg1);    
+      }
+      .body_clase .navbar.libro .libro-left {
+        background: inherit !important;
+      }
+      .navbar.libro {
+        background: var(--colordeg1) !important;
+      }
+      .libro-right ul li.close-back-wrapper:after, .navbar-divider:after {
+        background-color: var(--colordeg1) !important;
+      }
+      .libro-right ul li.close-back-wrapper:before, .navbar-divider:before {
+        background-color: var(--colordeg1) !important; 
+      }
+
+      /*------ HEADER ---------*/
       #actividad .content .header .title img {
         display: none;
       }
@@ -1088,18 +1118,6 @@
         display: none;
       }
 
-     
-     
-     /*Letra por defecto*/
-     .body_clase.content_type_curso_Bromera2021Dev {
-         font: 400 17px 'Roboto',sans-serif;
-     }
-     .texto_curso p {
-      line-height: 1.7em!important;
-      margin-bottom: 10px;
-    }
-
-
      /*-------------------------*/
      /*------GENERALES----------*/
      /*--------------------------*/
@@ -1112,7 +1130,49 @@
       margin-top: 0;
       margin-bottom: 80px;
     }
+    .body_clase.content_type_curso_Bromera2021Dev {
+      font: 400 17px 'Roboto',sans-serif;
+    }
+    .texto_curso p {
+      line-height: 1.7em!important;
+      margin-bottom: 10px;
+    }
 
+    /*-------- TÍTULOS ----------*/
+    .bck-title1,
+    .bck-title2,
+    .bck-title3,
+    .bck-title4,
+    .bck-title5 {
+    background: none;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    border-bottom: 2px solid;
+    padding: 0px 0 5px 5px;
+    width: 100%;
+    }
+    .bck-title1 {
+    color: #de768a;
+    }
+    .bck-title2 {
+    color: #62C3D6;
+    }
+    .bck-title3 {
+    color: #DAE06C;
+    }
+    .bck-title4 {
+    color: #706f6f;
+    }
+    .bck-title5 {
+    color: #F4B806;
+    }
+    .bck-title6 {
+    font-size: 24px;
+    }
+    .bck-title7 {
+    font-size: 22px;
+    }
 
      /*--------------------CAJAS PARA LA CABECERA-----------*/
      /*CAJA 1 - Caja reptes
@@ -1217,150 +1277,89 @@
      .bck-box9:before {
          background-image: url(images/icono_rali.jpg);
      }
-
-
-     .bck-box10 {
-      background: var(--mainlight) ;
-      margin: 10px auto 15px;
-     }
-     .bck-box.bck-box10 .bck-title {
-      background: var(--colordeg1);
-      color: #fff;
-      font-weight: bold;
-      padding: 5px 20px;
-    }
-    .bck-box.bck-box10 .bck-content {
-      padding: 5px 20px;
-    }
-    .bck-box.bck-box11 {
-      border: 2px solid var(--colordeg1);
-      padding: 10px 20px;
-      margin: 10px 0;
-    }
-    .bck-box.bck-box11 .bck-title {
-      font-weight: bold;
-      color: var(--colordeg1);
-    }
-     
-     
-     
-     /* --- Ajuste en TEXTO CURSO para que se visualice la caja 1 correctamente con la plantilla de actividades*/
-     
-     #actividad .pregunta .texto_curso {
-         font-size: inherit;
-     }
-     
-     /*CAJA 2*/
-     
-     .bck-box2 {
-         background: #FBDC99;
-         width: fit-content;
-         width: -moz-fit-content;
-         padding: 20px 40px;
-         border-radius: 94px;
-         text-align: center;
-         margin-right: 0;
-         margin: 10px auto 15px;
-     }
-     
-     .bck-box2 .bck-title p {
-         font-size: 27px;
-         margin-bottom: 7px;
-         font-weight: bold;
-         font-family: 'RockwellStd', 'Roboto Slab', serif;
-     }
-     
-     .bck-box2 .bck-content p {
-         font-family: "RockwellStd", "Roboto Slab", serif;
-     }
-     
-     /*CAJA 3*/
-     
-     .bck-box3 {
+        /* --- Ajuste en TEXTO CURSO para que se visualice la caja 1 correctamente con la plantilla de actividades*/
+        #actividad .pregunta .texto_curso {
+        font-size: inherit;
+        }
+      /*-*/
+      .bck-box2 {
+        background: #FBDC99;
+        width: fit-content;
+        width: -moz-fit-content;
+        padding: 20px 40px;
+        border-radius: 94px;
+        text-align: center;
+        margin-right: 0;
+        margin: 10px auto 20px;
+      }
+      .bck-box2 .bck-title p {
+        font-size: 27px;
+        margin-bottom: 7px;
+        font-weight: bold;
+        font-family: 'RockwellStd', 'Roboto Slab', serif;
+      }
+      .bck-box2 .bck-content p {
+        font-family: "RockwellStd", "Roboto Slab", serif;
+      }
+      .bck-box3 {
         padding: 15px 20px;
         background: #D8D5DA;
         border: 3px solid #000000;
         border-radius: 26px;
-        margin: 10px auto 15px;
-     }
-     
-     .bck-box3 .bck-title p {
-         font-family: 'RockwellStd', 'Roboto Slab', serif;
-     }
-     
-     .bck-box3 .bck-content p {
-         font-family: "RockwellStd", "Roboto Slab", serif;
-     }
-     
-     /*Caja 4*/
-     
-     .bck-box4 {
-         background: #fff;
-         margin-bottom: 30px;
-         -webkit-box-shadow: 5px 8px 10px 5px #D7D7D7;
-         box-shadow: 5px 5px 8px 5px #D7D7D7;
-         background-image: -webkit-radial-gradient(#d6d5d6 30%, transparent 20%), -webkit-radial-gradient(#cfcfc3 38%, transparent 24%), -webkit-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 100%);
-         background-image: -moz-radial-gradient(#d6d5d6 30%, transparent 20%), -moz-radial-gradient(#cfcfc3 38%, transparent 24%), -moz-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%);
-         background-image: radial-gradient(#d6d5d6 30%, transparent 20%), radial-gradient(#cfcfc3 38%, transparent 24%), linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%);
-         background-position: 4px 1px, 4px 0px, 50% 0px;
-         background-repeat: repeat-x, repeat-x, repeat;
-         background-size: 30px 30px, 30px 30px, 30px 30px;
-         padding: 38px 20px 20px 20px;
-     }
-     
-     /*CAJA 5*/
-     
-     .bck-box5 {
-         border: 11px solid #62c3d6;
-         border-style: double;
-         padding: 10px 20px;
-         margin: 10px auto 15px;
-     }
-     
-     /*Títulos*/
-     .bck-title1,
-     .bck-title2,
-     .bck-title3,
-     .bck-title4,
-     .bck-title5 {
-        background: none;
-        font-size: 24px;
-        margin-bottom: 20px;
-        font-weight: 500;
-        border-bottom: 2px solid;
-        padding: 0px 0 5px 5px;
-        width: 100%;
-     }
-     .bck-title1 {
-         color: #de768a;
-     }
-     .bck-title2 {
-         color: #62C3D6;
-     }
-     .bck-title3 {
-         color: #DAE06C;
-     }
-     .bck-title4 {
-         color: #706f6f;
-     }
-     .bck-title5 {
-         color: #F4B806;
-     }
-     .bck-title6 {
-      font-size: 24px;
-    }
-    .bck-title7 {
-      font-size: 22px;
-    }
-
-
-     
-     
-     /*Listas ordenadas*/
-     
+        margin: 10px auto 20px;
+      }
+      .bck-box3 .bck-title p {
+        font-family: 'RockwellStd', 'Roboto Slab', serif;
+      }
+      .bck-box3 .bck-content p {
+        font-family: "RockwellStd", "Roboto Slab", serif;
+      }
+      .bck-box4 {
+        background: #fff;
+        margin-bottom: 30px;
+        -webkit-box-shadow: 5px 8px 10px 5px #D7D7D7;
+        box-shadow: 5px 5px 8px 5px #D7D7D7;
+        background-image: -webkit-radial-gradient(#d6d5d6 30%, transparent 20%), -webkit-radial-gradient(#cfcfc3 38%, transparent 24%), -webkit-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 100%);
+        background-image: -moz-radial-gradient(#d6d5d6 30%, transparent 20%), -moz-radial-gradient(#cfcfc3 38%, transparent 24%), -moz-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%);
+        background-image: radial-gradient(#d6d5d6 30%, transparent 20%), radial-gradient(#cfcfc3 38%, transparent 24%), linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%);
+        background-position: 4px 1px, 4px 0px, 50% 0px;
+        background-repeat: repeat-x, repeat-x, repeat;
+        background-size: 30px 30px, 30px 30px, 30px 30px;
+        padding: 38px 20px 20px 20px;
+      }
+      .bck-box5 {
+        border: 11px solid #62c3d6;
+        border-style: double;
+        padding: 10px 20px;
+        margin: 10px auto 20px;
+      }
+      .bck-box10 {
+        background: var(--mainlight) ;
+        margin: 10px auto 20px;
+      }
+      .bck-box.bck-box10 .bck-title {
+        background: var(--colordeg1);
+        color: #fff;
+        font-weight: bold;
+        padding: 5px 20px;
+      }
+      .bck-box.bck-box10 .bck-content {
+        padding: 5px 20px;
+      }
+      .bck-box.bck-box11 {
+        border: 2px solid var(--colordeg1);
+        padding: 10px 20px;
+        margin: 10px 0 20px;
+      }
+      .bck-box.bck-box11 .bck-title {
+        font-weight: bold;
+        color: var(--colordeg1);
+      }
+      /*-*/
+     /*-----------------------------------*/
+     /*------- Listas ordenadas -----------*/
      
      /*Lista ordenada por defecto*/
-     
      #actividad .content .cke_contents ol,
       #actividad .content .texto_curso ol,
        #actividad .content .workspace ul li ol,
@@ -1368,7 +1367,6 @@
          list-style-type: none;
          counter-reset: bck-li-counter;
      }
-     
      #actividad .content .cke_contents ol li,
       #actividad .content .cke_contents ol li,
        #actividad .content .texto_curso ol li,
@@ -1380,7 +1378,6 @@
          margin-top: 10px;
          margin-left: -12px;
      }
-     
      #actividad .content .cke_contents ol li::before,
       #actividad .content .texto_curso ol li::before,
        #actividad .popover-content ol li::before,
@@ -1396,10 +1393,8 @@
          margin-left: -43px;
          text-align: center;
      }
-     
-     
+
      /*Lista ordenada 1*/
-     
      #actividad .content .cke_contents .bck-ol-1 li,
       #actividad .content .cke_contents .bck-ol-1 li,
        #actividad .content .texto_curso .bck-ol-1 li,
@@ -1407,7 +1402,6 @@
          #actividad .content .workspace ul li .bck-ol-1 li {
          margin-left: 5px;
      }
-     
      #actividad .content .cke_contents .bck-ol-1 li:before,
      #actividad .content .texto_curso .bck-ol-1 li:before,
      #actividad .content .workspace ul li .bck-ol-1 li:before {
@@ -1418,7 +1412,6 @@
      }
      
      /*Lista desordenada*/
-     
      .texto_curso ul li:before,
      .workspace ul li ul li:before,
      .cke_contents ul li:before {
@@ -1429,134 +1422,107 @@
      }
      
      /*Lista desordenada 1*/
-     
      .texto_curso .bck-ul-1 li:before,
      .workspace ul li .bck-ul-1 li:before,
      .cke_contents .bck-ul-1 li:before {
          background-color: #f4b705;
      }
-     
-     
-     /*Tablas*/
-     
+    /*-----------------------------*/
+    /* --------- Tablas ------------*/
      table td, th {
          padding: 8px;
      }
-     
      table {
          table-layout: fixed;
          border: 3px solid #6A6E72;
-     }
-     
+     } 
      table td, th {
          border: 3px solid #6A6E72;
-     }
-     
+     }    
      table td.bck-td1 {
          background: #6A6E72;
          color: white;
      }
-     
-     
      table td.bck-td2 {
          background: #d2d2d2;
      }
      
-     /*Tabla 1 AZUL*/
-     
+     /*Tabla 1 AZUL*/   
      .bck-table1 {
          table-layout: fixed;
          border: 3px solid #62C3D5;
-     }
-     
+     } 
      .bck-table1 td, th {
          border: 3px solid #62C3D5;
-     }
-     
+     }   
      .bck-table1 td.bck-td1 {
          background: #62C3D5;
-     }
-     
+     }  
      .bck-table1 td.bck-td2 {
          background: #62c3d53b;
      }
      
      /*Tabla 2 Roja*/
-     
      .bck-table2 {
          table-layout: fixed;
          border: 3px solid #DE7689;
      }
-     
      .bck-table2 td, th {
          border: 3px solid #DE7689;
-     }
-     
+     } 
      .bck-table2 td.bck-td1 {
          background: #DE7689;
-     }
-     
+     } 
      .bck-table2 td.bck-td2 {
          background: #de768952;
      }
      
-     /*Tabla 3 Amarilla*/
-     
+     /*Tabla 3 Amarilla*/    
      .bck-table3 {
          table-layout: fixed;
          border: 3px solid #F4B705;
-     }
-     
+     }  
      .bck-table3 td, th {
          border: 3px solid #F4B705;
-     }
-     
+     }   
      .bck-table3 td.bck-td1 {
          background: #F4B705;
-     }
-     
+     }  
      .bck-table3 td.bck-td2 {
          background: #f4b7054f;
      }
      
-     /*Tabla 4 Verde*/
-     
+     /*Tabla 4 Verde*/    
      .bck-table4 {
          table-layout: fixed;
          border: 3px solid #D9DF6C;
-     }
-     
+     }   
      .bck-table4 td, th {
          border: 3px solid #D9DF6C;
-     }
-     
+     }  
      .bck-table4 td.bck-td1 {
          background: #D9DF6C;
-     }
-     
+     }  
      .bck-table4 td.bck-td2 {
          background: #d9df6c4f;
      }
      
-     /*Tabla 5 sin bordes*/
-     
+     /*Tabla 5 sin bordes*/  
      .bck-table5 {
          table-layout: fixed;
          border: 0;
-     }
-     
+     }  
      .bck-table5 td, th {
          border: 0;
-     }
-     
+     }  
      .bck-table5 td.bck-td1 {
          background: none;
-     }
-     
+     }  
      .bck-table5 td.bck-td2 {
          background: none;
      }
-     
+    /*-*/
+    /*--- ÉNFASIS ----*/ 
      /*Enfasis 1*/
      .bck-enfasis1 {
          font-family: "Roboto Slab", serif;
@@ -1596,7 +1562,8 @@
      .bck-enfasis8 {
          color: #706f6f;
      }
-     
+    /*-*/
+    /*--- OTROS ELEMENTOS CKEDITOR ---*/ 
      /*FLIPBOX*/
      body:not(.edit) .bck-flipbox {
      margin: 10px 0 15px; 
@@ -1616,12 +1583,10 @@
         color: #4A4A4A;
         font-weight: bold;
      }
-          
      body:not(.edit) .bck-flipbox-face.front,
       body:not(.edit) .bck-flipbox-face.back {
        border-color: var(--colordeg1)
      }
-
      /*Desplegable*/
      .bck-dropdown {
        margin: 10px 5px 15px;
@@ -1638,7 +1603,6 @@
       filter: brightness(0);
       -webkit-filter: brightness(0);
     }
-
      /*POP UP*/
      #actividad .info-button {
          color: var(--maincolor);
@@ -1647,24 +1611,20 @@
      }
      
      /*Pop-Over desplegable*/
-     
      .info-template .info-title {
          color: var(--colordeg1);
      }
-     
      .info-template .info-icon {
          color: var(--colordeg1);
      }
-     
      .info-popover .popover-title, .popover-template .popover-title {
          color: var(--colordeg1);
      }
-     
      .info-popover .popover-title:before,
       .popover-template .popover-title:before {
          color: var(--colordeg1);
-     
      }
+    /*----*/ 
 
      /*ICONOS*/
      .item-container .icon:before {
@@ -1700,7 +1660,6 @@
      }
      
      /*Icono audio por defecto*/
-     
      #actividad .player.audio, #actividad .player.video, #help-panel-content .player, #remote-alert-modal-rich .player {
          height: 27px !important;
          width: 27px;
@@ -1713,9 +1672,7 @@
          vertical-align: middle;
          padding: 9px;
          background-color: transparent;
-     
      }
-     
      #actividad .player:hover, #help-panel-content .player:hover, #remote-alert-modal-rich .player:hover {
          background-color: transparent;
          transform: scale(1.2);
@@ -1789,11 +1746,9 @@
      /*-------------CAMBIOS EN PLANTILLAS-----------------*/
      
      /*Plantillas generales*/
-     
      #actividad .pregunta .texto_curso {
          font-size: inherit;
      }
-     
      #actividad .workspace {
          font-size: inherit;
      }
@@ -1839,8 +1794,7 @@
       .shortanswer-container .preview:focus {
       border-color: var(--colordeg1);
       box-shadow: 0 0 2px var(--colordeg1);
-  }
-     
+      }
      
      /*PLANTILLA ORDENAR ACTIVIDAD*/
      #actividad .workspace.ordenar .js-rank-item {
@@ -1954,6 +1908,31 @@
      /*------------------------------------------------------------*/
      /*---------------FIN ESTILO GENERAL---------------------------*/
      /*-----------------------------------------------------------*/
+      /*--------- unittag_bromeraescolar2020 -----------------------------*/
+      /* Cambia la tipografía del libro*/
+      .body_clase.content_type_curso_Bromera2021Dev.unittag_bromeraescolar2020  {
+        font: 400 22px 'Dekko',sans-serif;
+      }    
+      .unittag_bromeraescolar2020 p {
+        font-size: 22px;
+        font-family: 'Dekko', sans-serif;
+      }    
+      .unittag_bromeraescolar2020 .texto_curso p {
+       line-height: 1.8em!important;
+      }   
+      .unittag_bromeraescolar2020 .bck-box2 .bck-title p,
+      .unittag_bromeraescolar2020 .bck-box3 .bck-title p,
+      .unittag_bromeraescolar2020 .bck-box4 .bck-title p,
+      .unittag_bromeraescolar2020 .bck-box5 .bck-title p{
+       font-family: "Dekko", sans-serif;
+      }
+      .unittag_bromeraescolar2020 .bck-box2 .bck-content p,
+      .unittag_bromeraescolar2020 .bck-box3 .bck-content p,
+      .unittag_bromeraescolar2020 .bck-box4 .bck-content p,
+      .unittag_bromeraescolar2020 .bck-box5 .bck-content p {
+        font-family: "Dekko", sans-serif;
+        font-size: 22px;
+      }
      
      /*-----------SECCIONES por activitytag_---------------------------------------*/
      /* RETO AZUL activitytag_repteazul*/
@@ -1997,61 +1976,9 @@
          border-left-color: #DE768A ;
      }
      
-     /*MARGEN BOTÓN VOLVER*/
-     .abp-slider-goback {
-         margin-bottom: 0px;
-     }
-     
-     /*Cambio NAVBAR GENERAL*/
-     
-     .libro-left ul li .title {
-         background: var(--colordeg1);
-     }
-     
-     .libro-right, .libro-left {
-         background: var(--colordeg1);    
-     }
-     
-     .body_clase .navbar.libro .libro-left {
-          background: inherit !important;
-     }
-     
-     .navbar.libro {
-         background: var(--colordeg1) !important;
-     }
-     
-     .libro-right ul li.close-back-wrapper:after, .navbar-divider:after {
-         background-color: var(--colordeg1) !important;
-     }
-     
-     .libro-right ul li.close-back-wrapper:before, .navbar-divider:before {
-         background-color: var(--colordeg1) !important; 
-     }
+
      /* Cambios por unittag */
-     /*--------- unittag_bromeraescolar2020 -----------------------------*/
-      .body_clase.content_type_curso_Bromera2021Dev.unittag_bromeraescolar2020  {
-        font: 400 22px 'Dekko',sans-serif;
-      }    
-      .unittag_bromeraescolar2020 p {
-        font-size: 22px;
-        font-family: 'Dekko', sans-serif;
-      }    
-      .unittag_bromeraescolar2020 .texto_curso p {
-        line-height: 1.8em!important;
-      }   
-      .unittag_bromeraescolar2020 .bck-box2 .bck-title p,
-      .unittag_bromeraescolar2020 .bck-box3 .bck-title p,
-      .unittag_bromeraescolar2020 .bck-box4 .bck-title p,
-      .unittag_bromeraescolar2020 .bck-box5 .bck-title p{
-        font-family: "Dekko", sans-serif;
-      }
-      .unittag_bromeraescolar2020 .bck-box2 .bck-content p,
-      .unittag_bromeraescolar2020 .bck-box3 .bck-content p,
-      .unittag_bromeraescolar2020 .bck-box4 .bck-content p,
-      .unittag_bromeraescolar2020 .bck-box5 .bck-content p {
-        font-family: "Dekko", sans-serif;
-        font-size: 22px;
-      }
+ 
 
      /*Cambios por coursetags*/
     /*--------------------------------COURSETAG coursetag_bromeramusica-----------------------------------------------*/
@@ -2164,17 +2091,38 @@
      /*------------------------------------------
      ------------------MEDIA QUERIES--------------
      -------------------------------------------*/
+    @media (max-width: 767px) {
+    .abp-section_unit-inner .abp-section-header-bottom {
+        visibility: hidden;
+    }
+    .abp-section_unit-inner .abp-section-header::before {
+        border-top: 20px solid;
+    }
+    .body_clase #actividad .carousel-inner .item-container {
+      margin-top: 0;
+    }
+    .bck-box1 .bck-title p {
+      font-size: 26px;
+    }
+    .bck-box1 .bck-content p, .bck-box6 .bck-content p, .bck-box7 .bck-content p, .bck-box8 .bck-content p, .bck-box9 .bck-content p {
+      font-size: 24px;
+      font: 600 24px 'RockwellStd','Roboto Slab';
+    }
+    }
+    @media (max-height: 700px) {
+      .coursetag_bromeramusica #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
+       padding: 90px 59px;
+       right: 0;
+       left: auto;
+       }
+    }
     @media (max-width: 579px) {
     .body_clase #actividad .carousel-inner .item-container {
       margin-top: 0;
     }
     } 
-     
-     /* Smartphones (portrait & landscape) */
-     @media only screen 
-     and (min-device-width : 320px) 
-     and (max-device-width : 480px) {
-     
+
+     @media (max-width : 480px) {
          #actividad .class_slide {
           padding-left: 40px;
           padding-right: 40px;
@@ -2219,21 +2167,8 @@
           }
      }
 
-     @media (max-height: 700px) {
-     .coursetag_bromeramusica #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
-      padding: 90px 59px;
-      right: 0;
-      left: auto;
-      }
-    }
-     @media (max-width: 767px) {
-         .abp-section_unit-inner .abp-section-header-bottom {
-             visibility: hidden;
-         }
-         .abp-section_unit-inner .abp-section-header::before {
-             border-top: 20px solid;
-         }
-     }
+
+
     @media (max-height: 375px), (max-width: 476px) {
       #layout-container #main-screen #course-header .course-title span {
         font-size: 17px;
