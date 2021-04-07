@@ -1944,7 +1944,7 @@
      .activitytag_repteazul .bck-box1 {
          border-left-color: #62C3D6;
      }
-     body:not(.edit).coursetag_bromeramusica .activitytag_repteazul #actividad .content .header {
+     body:not(.edit).coursetag_bromeramusica.activitytag_repteazul #actividad .content .header {
         border-left-color: #62C3D6;
      }
      
@@ -1952,7 +1952,7 @@
      .activitytag_repteverde .bck-box1 {
          border-left-color: #DAE06C;
      }
-     body:not(.edit).coursetag_bromeramusica .activitytag_repteverde #actividad .content .header {
+     body:not(.edit).coursetag_bromeramusica.activitytag_repteverde #actividad .content .header {
         border-left-color: #DAE06C;
      }
      
@@ -1960,7 +1960,7 @@
      .activitytag_repterojo .bck-box1 {
          border-left-color: #DE768A;
      }
-     body:not(.edit).coursetag_bromeramusica .activitytag_repterojo #actividad .content .header {
+     body:not(.edit).coursetag_bromeramusica.activitytag_repterojo #actividad .content .header {
         border-left-color: #DE768A;
      }
      
@@ -1970,31 +1970,45 @@
      .unittag_project2 .bck-box1 {
          background: #62C3D6;
      }
-     body:not(.edit).coursetag_bromeramusica .unittag_project2 #actividad .content .header {
+     body:not(.edit).coursetag_bromeramusica.unittag_project2 #actividad .content .header {
         background-color: #62C3D6;
      }
      .unittag_project2 .bck-box7,
      .unittag_project2 .bck-box8 {
          background: #DAE06C;
      }
-     .unittag_project2 .bck-box9 {
-         border-left-color: #DAE06C ;
+     body:not(.edit).coursetag_bromeramusica.unittag_project2 #actividad .content .intro .header, 
+        body:not(.edit).coursetag_bromeramusica.unittag_project2 #actividad .content .trimestre .header {
+        background-color: #DAE06C;
      }
+     .unittag_project2 .bck-box9 {
+        border-left-color: #DAE06C ;
+     }
+     body:not(.edit).coursetag_bromeramusica.unittag_project2 #actividad .content .ralli .header {
+        border-left-color: #DAE06C ;
+  }
      
      /*Proyecto 3 - unittag_project3*/
      .unittag_project3 .bck-box1 {
          background: #DAE06C;
      }
-     body:not(.edit).coursetag_bromeramusica .unittag_project3 #actividad .content .header {
+     body:not(.edit).coursetag_bromeramusica.unittag_project3 #actividad .content .header {
         background-color: #DAE06C;
      }
      .unittag_project3 .bck-box7,
      .unittag_project3 .bck-box8 {
          background: #DE768A;
      }
+      body:not(.edit).coursetag_bromeramusica.unittag_project3 #actividad .content .intro .header, 
+      body:not(.edit).coursetag_bromeramusica.unittag_project3 #actividad .content .trimestre .header {
+         background-color: #DE768A;
+     }
      .unittag_project3 .bck-box9 {
          border-left-color: #DE768A ;
      }
+     body:not(.edit).coursetag_bromeramusica.unittag_project3 #actividad .content .ralli .header {
+        border-left-color: #DE768A ;
+  }
      
 
      /* --------- Cambios por SECCIONES ---------- */
