@@ -1102,6 +1102,9 @@
         padding-bottom: 5px;
         border-bottom: 0;
       }
+      body:not(.edit) #actividad .content .header.empty {
+        display: none;
+      }
       #actividad .content .header .title {
         min-height: 37px;
         margin-bottom: 5px;
