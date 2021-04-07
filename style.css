@@ -2115,7 +2115,7 @@
                 font-size: 20px;
             }
         }
-            body:not(.edit).coursetag_bromeramusica #actividad .content .intro .header:after {
+            body:not(.edit).coursetag_bromeramusica #actividad .content .header:after {
                 display: none;
         }
         /*-*/
