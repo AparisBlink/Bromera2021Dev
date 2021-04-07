@@ -2073,16 +2073,15 @@
         body:not(.edit).coursetag_bromeramusica #actividad .content .header:before {
             content: "";
             background-image: url(images/icono_diana.png);
-            background-size: 64px;
+            background-size: contain;
             padding: 40px;
             position: absolute;
-            -webkit-border-radius: 100%;
-            border-radius: 100%;
             background-repeat: no-repeat;
             background-position: center left;
-            border-radius: 0;
-            left: -82px;
-            height: 100%;
+            -webkit-border-radius: 100%;
+            border-radius: 100%;
+            left: -94px;
+            height: 50px;
         }
         body:not(.edit).coursetag_bromeramusica #actividad .content .header .title {
             margin-bottom: 0;
