@@ -2023,7 +2023,7 @@
         background-color: var(--colordeg1) !important;  
         padding-left: inherit;
     }  
-    body:not(.edit).coursetag_bromeramusica #actividad .content .intro .heade:before {
+    body:not(.edit).coursetag_bromeramusica #actividad .content .intro .header:before {
         background-image: none;
     }    
 
