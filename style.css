@@ -1939,22 +1939,34 @@
      .activitytag_repteazul .bck-box1 {
          border-left-color: #62C3D6;
      }
+     body:not(.edit).coursetag_bromeramusica .activitytag_repteazul #actividad .content .header {
+        border-left-color: #62C3D6;
+     }
      
      /* RETO VERDE activitytag_repteverde*/
      .activitytag_repteverde .bck-box1 {
          border-left-color: #DAE06C;
+     }
+     body:not(.edit).coursetag_bromeramusica .activitytag_repteverde #actividad .content .header {
+        border-left-color: #DAE06C;
      }
      
      /* RETO ROJO activitytag_repterojo*/
      .activitytag_repterojo .bck-box1 {
          border-left-color: #DE768A;
      }
+     body:not(.edit).coursetag_bromeramusica .activitytag_repterojo #actividad .content .header {
+        border-left-color: #DE768A;
+     }
      
-     /*-----------SECCIONES por unittag_---------------------------------------*/
+     /*----------- CAMBIOS por unittag_---------------------------------------*/
      
      /*Proyecto 2 - unittag_project2*/
      .unittag_project2 .bck-box1 {
          background: #62C3D6;
+     }
+     body:not(.edit).coursetag_bromeramusica .unittag_project2 #actividad .content .header {
+        background-color: #62C3D6;
      }
      .unittag_project2 .bck-box7,
      .unittag_project2 .bck-box8 {
@@ -1968,6 +1980,9 @@
      .unittag_project3 .bck-box1 {
          background: #DAE06C;
      }
+     body:not(.edit).coursetag_bromeramusica .unittag_project3 #actividad .content .header {
+        background-color: #DAE06C;
+     }
      .unittag_project3 .bck-box7,
      .unittag_project3 .bck-box8 {
          background: #DE768A;
@@ -1977,8 +1992,31 @@
      }
      
 
-     /* Cambios por unittag */
- 
+     /* --------- Cambios por SECCIONES ---------- */
+     /* Seccion "periodistes" */
+     body:not(.edit).coursetag_bromeramusica #actividad .content .periodistes .header {
+        border-left-color: #6A6E72 !important;
+        background-image: url(images/icono_periodistas_musicales.jpg);
+        background-color: #F4B806 !important;  
+    }
+    /* Seccion "trimestre" */
+    body:not(.edit).coursetag_bromeramusica #actividad .content .trimestre .header {
+        border-left-color: #6A6E72 !important;
+        background-image: url(images/icono_valore_trimestre.jpg);
+        background-color: #62C3D6 !important;  
+    } 
+    /* Seccion "ralli" */
+    body:not(.edit).coursetag_bromeramusica #actividad .content .trimestre .header {
+        border-left-color: #62C3D6 !important;
+        background-image: url(images/icono_rali.jpg);
+        background-color: #F2F1F3 !important;  
+    }
+    /* Seccion "intro" */
+    body:not(.edit).coursetag_bromeramusica #actividad .content .intro .header {
+        border-left: 0 !important;
+        background-image: none;
+        background-color: var(--colordeg1) !important;  
+    }    
 
      /*Cambios por coursetags*/
     /*--------------------------------COURSETAG coursetag_bromeramusica-----------------------------------------------*/
@@ -2009,12 +2047,73 @@
       background-repeat: no-repeat;
       left: 32px;
     }
-    body:not(.edit).coursetag_bromeramusica #actividad .content .header {
-      display: none;
-    }
+        /*Cambios en el Header*/
+        body:not(.edit).coursetag_bromeramusica #actividad .content .header {
+            border-left: 109px solid;
+            border-color: #F4B806;
+            min-height: 100px;
+            position: relative;
+            font-family: 'Roboto Slab';
+            color: #414141;
+            padding-left: 20px;
+            display: flex;
+            align-items: center;
+            padding: 10px 10px;
+            background-color: #DE768A; 
+        }
+        body:not(.edit).coursetag_bromeramusica #actividad .content .header:before {
+            content: "";
+            background-image: url(images/icono_diana.png);
+            background-size: 64px;
+            padding: 40px;
+            position: absolute;
+            -webkit-border-radius: 100%;
+            border-radius: 100%;
+            background-repeat: no-repeat;
+            background-position: center left;
+            border-radius: 0;
+            left: -82px;
+            height: 100%;
+        }
+        body:not(.edit).coursetag_bromeramusica #actividad .content .header .title {
+            margin-bottom: 0;
+            flex-grow: 4;
+        }
+        .coursetag_bromeramusica #actividad .content .header .title h3 {
+            font-size: 29px;
+            margin-bottom: 0;
+            margin-top: 0;
+            padding-bottom: 5px;
+        }
+        body:not(.edit).coursetag_bromeramusica #actividad .content .intro .header:after {
+            content: "";
+            position: relative;
+            padding: 20px 54px;
+            background-image: url(images/logo_bromera_musica.png);
+            background-repeat: no-repeat;
+            background-size: 100px;
+            background-position: center right;
+            margin-right: 40px;
+            margin-top: -9px;
+        }
+        @media (max-width: 767px) {
+            .coursetag_bromeramusica #actividad .content .header .title h3 {
+                font-size: 24px;
+            }
+        }
+        @media (max-width: 480px) {
+            .coursetag_bromeramusica #actividad .content .header .title h3 {
+                font-size: 20px;
+            }
+        }
+            body:not(.edit).coursetag_bromeramusica #actividad .content .intro .header:after {
+                display: none;
+        }
+        /*-*/
+
     .body_clase.content_type_curso_Bromera2021Dev.coursetag_bromeramusica {
       font: 400 19px 'Roboto',sans-serif;
-  }
+    }
     .coursetag_bromeramusica .bck-title1,
     .coursetag_bromeramusica .bck-title2,
     .coursetag_bromeramusica .bck-title3,
@@ -2073,9 +2172,15 @@
          background-image: url(images/mascota_loro.png);
          padding: 171px 130px;
      }
+     @media (max-height: 700px) {
+      .coursetag_bromeramusica #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
+       padding: 78px 59px;
+       }
+    }
      /*Cantante*/
      .coursetag_cantante #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
-         background-image: url(images/mascota_cantante_1.png);
+        background-image: url(images/mascota_cantante_1.png);
+        padding: 165px 100px;
      }
      
      /*Pirata 1*/
@@ -2123,39 +2228,44 @@
     } 
 
      @media (max-width : 480px) {
-         #actividad .class_slide {
+        #actividad .class_slide {
           padding-left: 40px;
           padding-right: 40px;
-         }     
-          .bck-box1, .bck-box6, .bck-box7, .bck-box8, .bck-box9 {
-            width: calc(100% + 80px);
-            margin-left: -40px;
-            margin-top: -4%;
-            padding: 10px 13px;
-            min-height: 79px;
-            border-left-width: 76px;
         }
-         .abp-section_unit-inner .abp-section-header-top::after {
-             display: none;
-         }
-         .bck-box1 .bck-title p {
-             font-size: 22px;
-         }
-         .bck-box1 .bck-content p, .bck-box6 .bck-content p, .bck-box7 .bck-content p, .bck-box8 .bck-content p, .bck-box9 .bck-content p {
-             font-size: 30px;
-             font: 600 20px 'RockwellStd','Roboto Slab';
-         }
-         .bck-box1:before, .bck-box6:before, .bck-box8:before, .bck-box9:before {
-             padding: 26px;
-             left: -64px;
-             top: 15px;
-         }
-         .bck-box1:after, .bck-box6:after, .bck-box7:after, .bck-box8:after, .bck-box9:after {
-             display: none;
-         }
-         #actividad .workspace .opcion {
-             padding: 10px 5px !important;
-         }
+        body:not(.edit) #actividad .content .header {
+          width: calc(100% + 80px);
+          margin-left: -40px;
+          padding-left: 40px;
+        }     
+        .bck-box1, .bck-box6, .bck-box7, .bck-box8, .bck-box9 {
+          width: calc(100% + 80px);
+          margin-left: -40px;
+          margin-top: -4%;
+          padding: 10px 13px;
+          min-height: 79px;
+          border-left-width: 76px;
+        }
+        .abp-section_unit-inner .abp-section-header-top::after {
+           display: none;
+        }
+        .bck-box1 .bck-title p {
+           font-size: 22px;
+        }
+        .bck-box1 .bck-content p, .bck-box6 .bck-content p, .bck-box7 .bck-content p, .bck-box8 .bck-content p, .bck-box9 .bck-content p {
+           font-size: 30px;
+           font: 600 20px 'RockwellStd','Roboto Slab';
+        }
+        .bck-box1:before, .bck-box6:before, .bck-box8:before, .bck-box9:before {
+           padding: 26px;
+           left: -64px;
+           top: 15px;
+        }
+        .bck-box1:after, .bck-box6:after, .bck-box7:after, .bck-box8:after, .bck-box9:after {
+           display: none;
+        }
+        #actividad .workspace .opcion {
+           padding: 10px 5px !important;
+        }
      }
      
      @media (max-width: 476px) {
