@@ -1996,26 +1996,34 @@
      /* Seccion "periodistes" */
      body:not(.edit).coursetag_bromeramusica #actividad .content .periodistes .header {
         border-left-color: #6A6E72 !important;
-        background-image: url(images/icono_periodistas_musicales.jpg);
         background-color: #F4B806 !important;  
+    }
+    body:not(.edit).coursetag_bromeramusica #actividad .content .periodistes .header:before {
+        background-image: url(images/icono_periodistas_musicales.jpg);
     }
     /* Seccion "trimestre" */
     body:not(.edit).coursetag_bromeramusica #actividad .content .trimestre .header {
         border-left-color: #6A6E72 !important;
-        background-image: url(images/icono_valore_trimestre.jpg);
         background-color: #62C3D6 !important;  
+    } 
+    body:not(.edit).coursetag_bromeramusica #actividad .content .trimestre .header:before {
+        background-image: url(images/icono_valore_trimestre.jpg);
     } 
     /* Seccion "ralli" */
     body:not(.edit).coursetag_bromeramusica #actividad .content .ralli .header {
         border-left-color: #62C3D6 !important;
-        background-image: url(images/icono_rali.jpg);
         background-color: #F2F1F3 !important;  
+    }
+    body:not(.edit).coursetag_bromeramusica #actividad .content .ralli .header:before {
+        background-image: url(images/icono_rali.jpg);
     }
     /* Seccion "intro" */
     body:not(.edit).coursetag_bromeramusica #actividad .content .intro .header {
         border-left: 0 !important;
-        background-image: none;
         background-color: var(--colordeg1) !important;  
+    }  
+    body:not(.edit).coursetag_bromeramusica #actividad .content .intro .heade:before {
+        background-image: none;
     }    
 
      /*Cambios por coursetags*/
