@@ -2021,6 +2021,7 @@
     body:not(.edit).coursetag_bromeramusica #actividad .content .intro .header {
         border-left: 0 !important;
         background-color: var(--colordeg1) !important;  
+        padding-left: inherit;
     }  
     body:not(.edit).coursetag_bromeramusica #actividad .content .intro .heade:before {
         background-image: none;
