@@ -2114,9 +2114,9 @@
             .coursetag_bromeramusica #actividad .content .header .title h3 {
                 font-size: 20px;
             }
-        }
             body:not(.edit).coursetag_bromeramusica #actividad .content .header:after {
                 display: none;
+        }
         }
         /*-*/
 
