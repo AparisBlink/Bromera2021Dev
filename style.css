@@ -1934,7 +1934,7 @@
         font-size: 22px;
       }
      
-     /*-----------SECCIONES por activitytag_---------------------------------------*/
+     /*-----------CAMBIOS por activitytag_---------------------------------------*/
      /* RETO AZUL activitytag_repteazul*/
      .activitytag_repteazul .bck-box1 {
          border-left-color: #62C3D6;
@@ -2006,7 +2006,7 @@
         background-color: #62C3D6 !important;  
     } 
     /* Seccion "ralli" */
-    body:not(.edit).coursetag_bromeramusica #actividad .content .trimestre .header {
+    body:not(.edit).coursetag_bromeramusica #actividad .content .ralli .header {
         border-left-color: #62C3D6 !important;
         background-image: url(images/icono_rali.jpg);
         background-color: #F2F1F3 !important;  
