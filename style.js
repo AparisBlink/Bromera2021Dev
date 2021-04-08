@@ -124,7 +124,7 @@
     {name: 'E.08 Gris', element: 'span', attributes: {'class': 'bck-enfasis8'}},
 
     { name: 'Icono Act. Fuerte', element: 'span', attributes: { 'class': 'icon icon-actfuerte' } },
-    { name: 'Icono Act. Fácil', element: 'span', attributes: { 'class': 'icon icon-actflojo' } },
+    { name: 'Icono Act. Débil', element: 'span', attributes: { 'class': 'icon icon-actflojo' } },
     { name: 'Icono SemRojo', element: 'span', attributes: { 'class': 'icon icon-semrojo' } },
     { name: 'Icono SemVerde', element: 'span', attributes: { 'class': 'icon icon-semverde' } },
     { name: 'Icono SemAmarillo', element: 'span', attributes: { 'class': 'icon icon-semnaranja' } },
