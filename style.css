@@ -1235,16 +1235,16 @@
         margin: 10px auto 20px;
       }
       .bck-box5 {
-        background: var(--mainlight) ;
+        background: var(--mainlight);
         margin: 10px auto 20px;
       }
-      .bck-box .bck-box5 > .bck-title {
+      .bck-box.bck-box5 > .bck-title {
         background: var(--colordeg1);
         color: #fff;
         font-weight: bold;
         padding: 5px 20px;
       }
-      .bck-box .bck-box5 > .bck-content {
+      .bck-box.bck-box5 > .bck-content {
         padding: 5px 20px;
       }
       .bck-box.bck-box6 {
