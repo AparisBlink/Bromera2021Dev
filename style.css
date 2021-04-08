@@ -1640,9 +1640,10 @@
      }
      body:not(.edit) .btn-primary[disabled],
      body:not(.edit) .btn-primary[disabled]:focus {
-        color: black;
-        background-color: transparent;
+        color: #fff;
+        background-color: #cd7184;
         border-color: #cd7184;
+        opacity: 0.4;
       }
      
      /*-------------CAMBIOS EN PLANTILLAS-----------------*/
