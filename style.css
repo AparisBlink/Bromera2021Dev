@@ -1186,21 +1186,20 @@
         /* --- Ajuste en TEXTO CURSO para que se visualice la caja 1 correctamente con la plantilla de actividades*/
       .bck-box1 {
         background: #FBDC99;
-        width: fit-content;
-        width: -moz-fit-content;
+        display: inline-block;
         padding: 20px 40px;
         border-radius: 94px;
         text-align: center;
         margin-right: 0;
         margin: 10px auto 20px;
       }
-      .bck-box1 .bck-title p {
+      .bck-box1 > .bck-title p {
         font-size: 27px;
         margin-bottom: 7px;
         font-weight: bold;
         font-family: 'RockwellStd', 'Roboto Slab', serif;
       }
-      .bck-box1 .bck-content p {
+      .bck-box1 > .bck-content p {
         font-family: "RockwellStd", "Roboto Slab", serif;
       }
       .bck-box2 {
@@ -1210,10 +1209,10 @@
         border-radius: 26px;
         margin: 10px auto 20px;
       }
-      .bck-box2 .bck-title p {
+      .bck-box2 > .bck-title p {
         font-family: 'RockwellStd', 'Roboto Slab', serif;
       }
-      .bck-box2 .bck-content p {
+      .bck-box2 > .bck-content p {
         font-family: "RockwellStd", "Roboto Slab", serif;
       }
       .bck-box3 {
@@ -1235,17 +1234,17 @@
         padding: 10px 20px;
         margin: 10px auto 20px;
       }
-      bck-box5 {
+      .bck-box5 {
         background: var(--mainlight) ;
         margin: 10px auto 20px;
       }
-      .bck-boxbck-box5 .bck-title {
+      .bck-box .bck-box5 > .bck-title {
         background: var(--colordeg1);
         color: #fff;
         font-weight: bold;
         padding: 5px 20px;
       }
-      .bck-boxbck-box5 .bck-content {
+      .bck-box .bck-box5 > .bck-content {
         padding: 5px 20px;
       }
       .bck-box.bck-box6 {
@@ -1253,7 +1252,7 @@
         padding: 10px 20px;
         margin: 10px 0 20px;
       }
-      .bck-box.bck-box6 .bck-title {
+      .bck-box.bck-box6 > .bck-title {
         font-weight: bold;
         color: var(--colordeg1);
       }
