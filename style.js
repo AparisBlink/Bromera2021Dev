@@ -1186,8 +1186,7 @@
         /* --- Ajuste en TEXTO CURSO para que se visualice la caja 1 correctamente con la plantilla de actividades*/
       .bck-box1 {
         background: #FBDC99;
-        width: fit-content;
-        width: -moz-fit-content;
+        display: inline-block;
         padding: 20px 40px;
         border-radius: 94px;
         text-align: center;
