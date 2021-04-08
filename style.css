@@ -1776,6 +1776,17 @@
      body:not(.edit) #actividad .item-container .radio-option input.filter-radio[type="radio"]+label.filter-label:hover {
          background: #dfdfdf9c;
      }
+     @media screen and (max-width: 1023px) {
+    #actividad .workspace.test .respuestas li { 
+        width: 45%;
+     }
+      }
+     @media screen and (max-width: 520px) {
+      #actividad .workspace.test .respuestas li {
+        width: 100%;
+     }
+    }
+
         
      /*Plantilla respuesta mútliple*/
      body:not(.edit) #actividad .workspace.multiple-choice .opcion p {
