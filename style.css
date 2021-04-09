@@ -2090,8 +2090,8 @@
          background-image: url(images/mascota_loro.png);
          padding: 171px 130px;
      }
-     @media (max-height: 700px) {
-      .coursetag_bromeramusica #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
+     @media (max-height: 800px) {
+      .coursetag_bromeramusica.coursetag_loro #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
        padding: 78px 59px;
        }
     }
@@ -2125,7 +2125,7 @@
       margin-top: 0;
     }
     }
-    @media (max-height: 700px) {
+    @media (max-height: 800px) {
       .coursetag_bromeramusica #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
        padding: 90px 59px;
        right: 0;
