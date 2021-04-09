@@ -1032,6 +1032,18 @@
     body #book-index #indice .col-indice.col-main .unit-content .material .item .imagen:before {
       background-image: none;
     }
+    body:not(.isTablet) #book-index #indice .unit-content .material .item:hover, 
+    body:not(.isTablet) #book-index #indice .unit-content .material .item:active, 
+    body:not(.isTablet) #book-index #indice .unit-content .material .item.current {
+      opacity: 1;
+    }
+    body:not(.isTablet) #book-index #indice .unit-content .material .item {
+      opacity: 0.6;
+      -webkit-transition: opacity 0.2s ease-in-out;
+      -moz-transition: opacity 0.2s ease-in-out;
+      transition: opacity 0.2s ease-in-out;
+    }
+
     #indice .units ul li a .title {
       color: #4a4a4a;
     }
