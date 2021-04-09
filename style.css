@@ -2094,7 +2094,7 @@
       .coursetag_bromeramusica.coursetag_loro #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
        padding: 78px 59px;
        }
-    }
+     }
      /*Cantante*/
      .coursetag_cantante #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
         background-image: url(images/mascota_cantante_1.png);
@@ -2130,6 +2130,11 @@
        padding: 90px 59px;
        right: 0;
        left: auto;
+       }
+    }
+    @media (max-height: 500px) {
+      .coursetag_bromeramusica #layout-container div[id*="section-screen"] .section .section-data .section-title:after {
+        display: none;
        }
     }
     @media (max-width: 579px) {
