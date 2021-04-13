@@ -1913,7 +1913,7 @@
         font-size: 24px;
         font-family: 'BR2_Escolar', cursive;
       }    
-      .unittag_bromeraescolar2020 .texto_curso p {
+      .unittag_bromeraescolar2020 .texto_curso {
        font: 400 24px 'BR2_Escolar', cursive;
        line-height: 1.8em!important;
       }   
