@@ -1,8 +1,82 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap');
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Regular.woff') format('woff'),
+      url('fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Italic.woff') format('woff'),
+      url('fonts/Roboto-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
 
-@import url('https://fonts.googleapis.com/css?family=Dekko&display=swap');
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Bold.woff') format('woff'),
+      url('fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-BoldItalic.woff') format('woff'),
+      url('fonts/Roboto-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Rockwell Std';
+  src: url('fonts/RockwellStd.woff') format('woff'),
+      url('fonts/RockwellStd.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rockwell Std';
+  src: url('fonts/RockwellStd-Italic.woff') format('woff'),
+      url('fonts/RockwellStd-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Rockwell Std';
+  src: url('fonts/RockwellStd-Bold.woff') format('woff'),
+      url('fonts/RockwellStd-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rockwell Std';
+  src: url('fonts/RockwellStd-BoldItalic.woff') format('woff'),
+      url('fonts/RockwellStd-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'BR2_Escolar';
+  src: url('fonts/BR2EscolarRegular.woff') format('woff'),
+      url('fonts/BR2EscolarRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BR2_Escolar Negra';
+  src: url('fonts/BR2EscolarNegra-Bold.woff') format('woff'),
+      url('fonts/BR2EscolarNegra-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 /*
 *   Imports de todos los archivos de estilos
 */
@@ -899,7 +973,7 @@
      #layout-container .section-title-1 {
         font-size: 50px;
         font-weight: bold;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Rockwell Std', serif;
     }
     #layout-container #main-screen #course-header .course-title span {
         font-size: 25px;
@@ -1209,10 +1283,10 @@
         font-size: 27px;
         margin-bottom: 7px;
         font-weight: bold;
-        font-family: 'RockwellStd', 'Roboto Slab', serif;
+        font-family: 'Rockwell Std', serif;
       }
       .bck-box1 > .bck-content p {
-        font-family: "RockwellStd", "Roboto Slab", serif;
+        font-family: "Rockwell Std", serif;
       }
       .bck-box2 {
         padding: 15px 20px;
@@ -1222,10 +1296,10 @@
         margin: 10px auto 20px;
       }
       .bck-box2 > .bck-title p {
-        font-family: 'RockwellStd', 'Roboto Slab', serif;
+        font-family: 'Rockwell Std', serif;
       }
       .bck-box2 > .bck-content p {
-        font-family: "RockwellStd", "Roboto Slab", serif;
+        font-family: "Rockwell Std", serif;
       }
       .bck-box3 {
         background: #fff;
@@ -1438,12 +1512,12 @@
     /*--- ÉNFASIS ----*/ 
      /*Enfasis 1*/
      .bck-enfasis1 {
-         font-family: "Roboto Slab", serif;
+         font-family: "Rockwell Std", serif;
      }
      
      /*Énfasis 2*/
      .bck-enfasis2 {
-         font-family: "Dekko", cursive;
+         font-family: "BR2_Escolar", cursive;
      }
      
      /*Énfasis 3*/
@@ -1836,11 +1910,11 @@
       /*--------- unittag_bromeraescolar2020 -----------------------------*/
       /* Cambia la tipografía del libro*/
       .body_clase.content_type_curso_Bromera2021Dev.unittag_bromeraescolar2020  {
-        font: 400 22px 'Dekko',sans-serif !important;
+        font: 400 22px 'BR2_Escolar',sans-serif !important;
       }    
       .unittag_bromeraescolar2020 p {
         font-size: 22px;
-        font-family: 'Dekko', sans-serif;
+        font-family: 'BR2_Escolar', sans-serif;
       }    
       .unittag_bromeraescolar2020 .texto_curso p {
        line-height: 1.8em!important;
@@ -1849,13 +1923,13 @@
       .unittag_bromeraescolar2020 .bck-box2 .bck-title p,
       .unittag_bromeraescolar2020 .bck-box3 .bck-title p,
       .unittag_bromeraescolar2020 .bck-box4 .bck-title p{
-       font-family: "Dekko", sans-serif;
+       font-family: "BR2_Escolar", sans-serif;
       }
       .unittag_bromeraescolar2020 .bck-box1 .bck-content p,
       .unittag_bromeraescolar2020 .bck-box2 .bck-content p,
       .unittag_bromeraescolar2020 .bck-box3 .bck-content p,
       .unittag_bromeraescolar2020 .bck-box4 .bck-content p {
-        font-family: "Dekko", sans-serif;
+        font-family: "BR2_Escolar", sans-serif;
         font-size: 22px;
       }
      
@@ -1972,7 +2046,7 @@
             border-color: #F4B806;
             min-height: 100px;
             position: relative;
-            font-family: 'Roboto Slab';
+            font-family: 'Rockwell Std';
             color: #414141;
             padding-left: 20px;
             display: flex;
