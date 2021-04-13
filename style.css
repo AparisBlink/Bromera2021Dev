@@ -1908,31 +1908,41 @@
      /*---------------FIN ESTILO GENERAL---------------------------*/
      /*-----------------------------------------------------------*/
       /*--------- unittag_bromeraescolar2020 -----------------------------*/
-      /* Cambia la tipografía del libro*/
-      .body_clase.content_type_curso_Bromera2021Dev.unittag_bromeraescolar2020  {
-        font: 400 22px 'BR2_Escolar',sans-serif !important;
-      }    
+      /* Cambia la tipografía del libro*/    
       .unittag_bromeraescolar2020 p {
-        font-size: 22px;
-        font-family: 'BR2_Escolar', sans-serif;
+        font-size: 24px;
+        font-family: 'BR2_Escolar', cursive;
       }    
       .unittag_bromeraescolar2020 .texto_curso p {
+       font: 400 24px 'BR2_Escolar', cursive;
        line-height: 1.8em!important;
       }   
       .unittag_bromeraescolar2020 .bck-box1 .bck-title p,
       .unittag_bromeraescolar2020 .bck-box2 .bck-title p,
       .unittag_bromeraescolar2020 .bck-box3 .bck-title p,
       .unittag_bromeraescolar2020 .bck-box4 .bck-title p{
-       font-family: "BR2_Escolar", sans-serif;
+       font-family: "BR2_Escolar", cursive;
       }
       .unittag_bromeraescolar2020 .bck-box1 .bck-content p,
       .unittag_bromeraescolar2020 .bck-box2 .bck-content p,
       .unittag_bromeraescolar2020 .bck-box3 .bck-content p,
       .unittag_bromeraescolar2020 .bck-box4 .bck-content p {
-        font-family: "BR2_Escolar", sans-serif;
-        font-size: 22px;
+        font-family: "BR2_Escolar", cursive;
+        font-size: 24px;
       }
-     
+      .unittag_bromeraescolar2020 .texto_curso ul li:before,
+      .unittag_bromeraescolar2020 .workspace ul li ul li:before,
+      .unittag_bromeraescolar2020 .cke_contents ul li:before {
+        margin-top: 10px;
+      }
+      .unittag_bromeraescolar2020 .bck-title1,
+        .unittag_bromeraescolar2020 .bck-title2,
+          .unittag_bromeraescolar2020 .bck-title3,
+          .unittag_bromeraescolar2020 .bck-title4, 
+           .unittag_bromeraescolar2020 .bck-title5 {
+            font-size: 27px;
+      }
+
      /*-----------CAMBIOS por activitytag_---------------------------------------*/
      /* RETO AZUL activitytag_repteazul*/
      body:not(.edit).coursetag_bromeramusica.activitytag_repteazul #actividad .content .header {
