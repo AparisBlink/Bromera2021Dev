@@ -1128,9 +1128,14 @@
       }
      
     /*Boton de Cerrar el iframe del libro digital*/
+    .btn-close-iframe {
+      top: 3px;
+    }
      .btn-close-iframe a {
-         color: #fff;
-      }
+        background: white;
+        color: #4a4a4a;
+        padding: 3px 10px;
+    }
       /*ENLACES*/     
       a:hover,
        a:active,
