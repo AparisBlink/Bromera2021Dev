@@ -979,7 +979,7 @@
         font-size: 25px;
         line-height: 1.2em;
     }
-     #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title {
+    #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title {
         background: var(--colordeg1);
         max-height: 109px;
         word-break: break-word;
@@ -1614,7 +1614,7 @@
      }
     /*----*/ 
 
-     /*ICONOS*/
+    /*ICONOS*/
      .item-container .icon:before {
         content: "";
         background-repeat: no-repeat;
@@ -1667,10 +1667,10 @@
          filter: brightness(1.1);
      }
      
-     /*BOTONES BLINK*/
+    /*BOTONES BLINK*/
      .btn {
       font-size: 17px;
-     }
+    }
     body:not(.edit) .btn-danger,
     body:not(.edit) .btn-danger[disabled] {
       color: #fff;
@@ -1972,7 +1972,7 @@
      }
      body:not(.edit).coursetag_bromeramusica.unittag_project2 #actividad .content .ralli .header {
         border-left-color: #DAE06C ;
-  }
+     }
      
      /*Proyecto 3 - unittag_project3*/
      body:not(.edit).coursetag_bromeramusica.unittag_project3 #actividad .content .header {
