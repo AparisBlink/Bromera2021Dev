@@ -1518,6 +1518,7 @@
      /*Énfasis 2*/
      .bck-enfasis2 {
          font-family: "BR2_Escolar", cursive;
+         font-size: calc(100% + 6px);
      }
      
      /*Énfasis 3*/
@@ -1910,11 +1911,11 @@
       /*--------- unittag_bromeraescolar2020 -----------------------------*/
       /* Cambia la tipografía del libro*/    
       .unittag_bromeraescolar2020 p {
-        font-size: 24px;
+        font-size: 23px;
         font-family: 'BR2_Escolar', cursive;
       }    
       .unittag_bromeraescolar2020 .texto_curso {
-       font: 400 24px 'BR2_Escolar', cursive;
+       font: 400 23px 'BR2_Escolar', cursive;
        line-height: 1.8em!important;
       }   
       .unittag_bromeraescolar2020 .bck-box1 .bck-title p,
@@ -1928,7 +1929,7 @@
       .unittag_bromeraescolar2020 .bck-box3 .bck-content p,
       .unittag_bromeraescolar2020 .bck-box4 .bck-content p {
         font-family: "BR2_Escolar", cursive;
-        font-size: 24px;
+        font-size: 23px;
       }
       .unittag_bromeraescolar2020 .texto_curso ul li:before,
       .unittag_bromeraescolar2020 .workspace ul li ul li:before,
