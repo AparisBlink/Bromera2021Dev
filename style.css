@@ -1152,22 +1152,22 @@
       }
       /*Cambio NAVBAR GENERAL*/
       .libro-left ul li .title {
-        background: var(--colordeg1);
+        background: #cf122f;
       }
       .libro-right, .libro-left {
-        background: var(--colordeg1);    
+        background: #cf122f;    
       }
       .body_clase .navbar.libro .libro-left {
         background: inherit !important;
       }
       .navbar.libro {
-        background: var(--colordeg1) !important;
+        background: #cf122f !important;
       }
       .libro-right ul li.close-back-wrapper:after, .navbar-divider:after {
-        background-color: var(--colordeg1) !important;
+        background-color: #cf122f !important;
       }
       .libro-right ul li.close-back-wrapper:before, .navbar-divider:before {
-        background-color: var(--colordeg1) !important; 
+        background-color: #cf122f !important; 
       }
 
       /*------ HEADER ---------*/
@@ -2122,6 +2122,27 @@
     .coursetag_bromeramusica .bck-title4,
     .coursetag_bromeramusica .bck-title5 {
       font-size: 30px
+    }
+
+    .coursetag_bromeramusica .libro-left ul li .title {
+      background: var(--colordeg1);
+    }
+    .coursetag_bromeramusica .libro-right, .libro-left {
+      background: var(--colordeg1);    
+    }
+    .coursetag_bromeramusica .body_clase .navbar.libro .libro-left {
+      background: inherit !important;
+    }
+    .coursetag_bromeramusica .navbar.libro {
+      background: var(--colordeg1) !important;
+    }
+    .coursetag_bromeramusica .libro-right ul li.close-back-wrapper:after,
+    .coursetag_bromeramusica .navbar-divider:after {
+      background-color: var(--colordeg1) !important;
+    }
+    .coursetag_bromeramusica .libro-right ul li.close-back-wrapper:before,
+    .coursetag_bromeramusica .navbar-divider:before {
+      background-color: var(--colordeg1) !important; 
     }
   
      /*--------------------------------COURSETAG coursetag_bromeramusicaverde-----------------------------------------------*/
